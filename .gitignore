@@ -1,0 +1,14 @@
+book
+
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+/broadcast
+
+# Dotenv file
+.env
+
+#macOS
+.DS_Store
