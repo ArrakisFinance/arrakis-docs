@@ -18,10 +18,10 @@ cargo install mdbook
 
 ## Test
 
-To see changes run
+To view local changes run:
 
 ```shell
 mdbook serve
 ```
 
-navigate to `http://localhost:3000` to see your book.
+navigate to `http://localhost:3000` to see your book
