@@ -3,4 +3,8 @@ authors = ["kassandra.eth"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Arrakis Modular Vaults"
+title = "Arrakis Docs"
+
+[output.html.fold]
+enable = true
+level = 1
