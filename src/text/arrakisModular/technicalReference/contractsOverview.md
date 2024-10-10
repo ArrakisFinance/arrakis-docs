@@ -16,7 +16,7 @@
 
 ### Ownership
 
-`PALMVaultNFT.sol` an NFT contract that allows ownership of private vaults to each be tokenized and thus transferrable. Very standard NFT contract
+`PrivateVaultNFT.sol` an NFT contract that allows ownership of private vaults to each be tokenized and thus transferrable. Very standard NFT contract
 
 ## Modules
 

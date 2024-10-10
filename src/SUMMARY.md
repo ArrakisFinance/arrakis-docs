@@ -20,8 +20,11 @@
 
 - [Arrakis Modular](text/arrakisModular/overview.md)
 
-  - [Architecture](text/arrakisModular/architecture.md)
-  - [Concepts](text/arrakisModular/concepts.md)
+  - [Architecture](text/arrakisModular/architecture/overview.md)
+    - [Meta Vaults](text/arrakisModular/architecture/metaVaults.md)
+    - [Modules](text/arrakisModular/architecture/modules.md)
+    - [Manager](text/arrakisModular/architecture/manager.md)
+    - [Routers](text/arrakisModular/architecture/routers.md)
   - [Deployments](text/arrakisModular/deployments.md)
   - [Technical reference](text/arrakisModular/technicalReference/overview.md)
 
