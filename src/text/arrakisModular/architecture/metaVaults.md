@@ -2,13 +2,13 @@
 
 - public
 <p align="center">
-<img src="../../../img/public-meta-vault.svg" alt="nft" width="300"/>
+<img src="../../../img/public-meta-vault.svg" alt="nft" width="300" class="img-svg"/>
 </p>
 
 - private
 
 <p align="center">
-<img src="../../../img/private-meta-vault.svg" alt="nft" width="450"/>
+<img src="../../../img/private-meta-vault.svg" alt="nft" width="450" class="img-svg"/>
 </p>
 
 <p align="center">
@@ -18,5 +18,5 @@
 Arrakis Meta Vault Factory
 
 <p align="center">
-<img src="../../../img/meta-vault-factory.svg" alt="nft" width="400"/>
+<img src="../../../img/meta-vault-factory.svg" alt="nft" width="400" class="img-svg"/>
 </p>
