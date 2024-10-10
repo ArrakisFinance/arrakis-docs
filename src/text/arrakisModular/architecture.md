@@ -1,8 +1,6 @@
 # Architecture
 
-Arrakis V1 and V2 LP vaults were each constrained vault types entirely built around Uniswap V3 DEX.
-
-Arrakis Modular takes the approach of creating an _Arrakis Meta Vault_ standard, where each vault attaches a _module_ adhering to a standard interface for integration with any underlying two-sided liquidity provision protocol(s). As long as a _module_ implements the module interface and its invariants correctly, it can be shipped and directly attached to the _Arrakis Meta Vault_ standard to create a new vault type / support a new LP vault use-case.
+At the heart of the Arrakis Modular system is the concept of Meta-Vaults. These Meta-Vaults enable users wishing to provide liquidity with two distinct assets to do so across any trading venue—without the need to deploy or migrate funds to new vaults. Meta-vaults, or from now on simply _vaults_, have the capability to whitelist various _modules_, essentially smart contracts that establish integration with liquidity-consuming dApps. This design ensures that as new DEXs emerge, liquidity provision becomes a matter of simply creating and whitelisting a new module compatible with the DEX, and then activating it.
 
 ![image.png](../../img/arrakis-modular-architecture.svg)
 
