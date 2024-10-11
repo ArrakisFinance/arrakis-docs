@@ -4,11 +4,11 @@
 
 - [Introduction](text/introduction/introduction.md)
 
-  - [Problem statement](text/introduction/problemStatement.md)
+  - [Problem Statement](text/introduction/problemStatement.md)
   - [Arrakis Infrastructure](text/introduction/arrakisInfra/overview.md)
     - [Smart Contract Framework](text/introduction/arrakisInfra/smartContractFramework.md)
     - [Offchain Market Making](text/introduction/arrakisInfra/offchainMarketMaking.md)
-  - [Vault Applications](text/introduction/vaultApplications/overview.md)
+  - [Vault Use Cases](text/introduction/vaultApplications/overview.md)
     - [Arrakis Pro](text/introduction/vaultApplications/arrakisPro.md)
     - [HOT AMM](text/introduction/vaultApplications/hotAmm.md)
     - [Uniswap v4 Hook](text/introduction/vaultApplications/uniV4Hook.md)
