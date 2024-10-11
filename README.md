@@ -1,6 +1,9 @@
-# modular-vault-book
+# Arrakis Docs
 
-Comprehensive documentation for Arrakis Modular vaults
+Comprehensive documentation for developers. Inspired by the [Rust Book](https://doc.rust-lang.org/book/).
+
+
+
 
 ## Setup
 
