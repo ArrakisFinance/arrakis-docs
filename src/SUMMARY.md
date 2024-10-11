@@ -16,7 +16,7 @@
 
 ---
 
-# Developer docs
+# Developer Docs
 
 - [Arrakis Modular](text/arrakisModular/overview.md)
 
@@ -26,7 +26,7 @@
     - [Admin and Security](text/arrakisModular/architecture/adminAndSec.md)
     - [Routers](text/arrakisModular/architecture/routers.md)
   - [Deployments](text/arrakisModular/deployments.md)
-  - [Technical reference](text/arrakisModular/technicalReference/overview.md)
+  - [Technical Reference](text/arrakisModular/technicalReference/overview.md)
 
     - [Contracts overview](text/arrakisModular/technicalReference/contractsOverview.md)
     - [Meta Vaults]()
@@ -185,4 +185,4 @@
 # Resources
 
 - [Audits](text/resources/audits.md)
-- [Old docs](text/resources/oldDocs.md)
+- [Legacy Docs](text/resources/oldDocs.md)

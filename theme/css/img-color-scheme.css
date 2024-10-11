@@ -36,3 +36,7 @@
 img#logo {
   width: 150px;
 }
+
+.sidebar-scrollbox {
+  margin-left: 10px;
+}
