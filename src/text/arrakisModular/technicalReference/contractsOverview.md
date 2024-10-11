@@ -1,6 +1,6 @@
 # Arrakis Modular Smart Contracts
 
-## Metavaults
+## Meta-Vaults
 
 ### Vaults
 
@@ -34,14 +34,14 @@
 
 `ArrakisStandardManager.sol` The manager contract that adds additional safety checks to make delegated LP management safe and as trustless as possible. Arrakis will use this as the entry point to actively manage both private vaults and public vaults. Also how we confiuge/harvest manager fee collection for Arrakis protocol to take cut of revenues generated.
 
-## Routing
-
-`ArrakisPublicVaultRouter.sol` A router contract which integrates permit2 which helps depositors add liquidity to `ArrakisMetaVaultPublic` instances, safely and conveniently.
-
-`RouterSwapExecutor.sol` a sub-component of the Public Vault Router used for swapping safely (need the middleman contract here for security concerns on these generic low level swaps being abused)
-
 ## Security
 
 `Guardian.sol` this contract is in charge of a rushing pauser role who can pause parts of the system in the case of critical error/vulnerability. This authority would be ultimately in the hands of some “Guardian Multisig” much like how AAVE works today. For any upgradeable contracts (modules are all beacon proxies and could potentially be upgradeable) there would be a timelock. So pauses are rushing but upgrades are slow.
 
 `TimeLock.sol` a slightly modified generic timelock (so that timelock cannot transfer ownership of the vault away from the timelock contract) a fresh instance of this is used for each Public Arrakis vault to make sure that security parameters cannot be rushingly reconfigured by a compromised public vault owner to extract value from the public vault.
+
+## Routing
+
+`ArrakisPublicVaultRouter.sol` A router contract which integrates permit2 which helps depositors add liquidity to `ArrakisMetaVaultPublic` instances, safely and conveniently.
+
+`RouterSwapExecutor.sol` a sub-component of the Public Vault Router used for swapping safely (need the middleman contract here for security concerns on these generic low level swaps being abused)

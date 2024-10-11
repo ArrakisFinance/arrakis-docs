@@ -23,7 +23,7 @@
   - [Architecture](text/arrakisModular/architecture/overview.md)
     - [Meta Vaults](text/arrakisModular/architecture/metaVaults.md)
     - [Modules](text/arrakisModular/architecture/modules.md)
-    - [Manager](text/arrakisModular/architecture/manager.md)
+    - [Admin and Security](text/arrakisModular/architecture/adminAndSec.md)
     - [Routers](text/arrakisModular/architecture/routers.md)
   - [Deployments](text/arrakisModular/deployments.md)
   - [Technical reference](text/arrakisModular/technicalReference/overview.md)
@@ -182,4 +182,7 @@
 
 ---
 
-# Smart Contracts
+# Resources
+
+- [Audits](text/resources/audits.md)
+- [Old docs](text/resources/oldDocs.md)
