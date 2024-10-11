@@ -5,6 +5,12 @@ multilingual = false
 src = "src"
 title = "Arrakis Docs"
 
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+no-section-label = true
+additional-css = ["theme/css/img-color-scheme.css"]
+
 [output.html.fold]
 enable = true
 level = 1

@@ -1,0 +1,42 @@
+.light {
+}
+.rust {
+  img#logo {
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+  }
+}
+.ayu {
+  img.img-svg,
+  img#logo {
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+  }
+}
+.coal {
+  img.img-svg,
+  img#logo {
+    -webkit-filter: invert(80%); /* safari 6.0 - 9.0 */
+    filter: invert(80%);
+  }
+}
+.navy {
+  img.img-svg,
+  img#logo {
+    -webkit-filter: invert(90%); /* safari 6.0 - 9.0 */
+    filter: invert(90%);
+  }
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.1em;
+}
+img#logo {
+  width: 150px;
+}
+
+.sidebar-scrollbox {
+  margin-left: 10px;
+}
