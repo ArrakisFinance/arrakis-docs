@@ -2,15 +2,15 @@
 
 Arrakis is a MEV-aware market maker that powers onchain liquidity.
 
-Centralised actors are profiting from retail DeFi users across the MEV supply chain. We call them Centralised Vertical Market Makers (CVMMs). 
+Centralized actors are profiting from retail DeFi users across the MEV supply chain. We call them Centralized Vertical Market Makers (CVMMs). 
 
 Arrakis is building the first decentralized alternative to address this problem, using cutting-edge mechanisms to recapture MEV, empower LPs, and hyperscale global onchain liquidity through a trustless framework.
 
-Arrakis Pro (our flagship product) is trusted by Maker, Ether.fi, Across, Maker, Lido, Stargate, Gnosis, Angle, Mountain, Kwenta, Lido, Index, Sturdy, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over $20B in transactions.
+Arrakis Pro (our flagship product) is trusted by Ether.fi, Across, Lido, Stargate, Gnosis, Angle, Mountain, Kwenta, Index, Sturdy, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over $20B in transactions.
 
 The Arrakis Infrastructure consists of:
-- Smart Contract Framework
-- Offchain market making.
+- Onchain Smart Contract Infra
+- Offchain Market Making Infra
 
 ## Arrakis Modular
 
