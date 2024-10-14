@@ -178,6 +178,7 @@
     - [Add liquidity](text/hotAmm/quickstartAMM/addLiquidity.md)
     - [Remove liquidity](text/hotAmm/quickstartAMM/removeLiquidity.md)
     - [Swap](text/hotAmm/quickstartAMM/swap.md)
+  - [Deployments](text/hotAmm/deployments.md)
   - [Whitepaper](text/hotAmm/whitepaper.md)
 
 ---
