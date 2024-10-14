@@ -1,18 +1,19 @@
 # Summary
 
 # Overview
-  - [About Arrakis Docs](text/docsoverview.md)
 
-  - [Intro to Arrakis](text/introduction/overview.md)
-    - [History](text/introduction/history.md)
-    - [Problem Statement](text/introduction/problemStatement.md)
-    - [Arrakis Infrastructure](text/introduction/arrakisInfra/overview.md)
-      - [Smart Contract Framework](text/introduction/arrakisInfra/smartContractFramework.md)
-      - [Offchain Market Making](text/introduction/arrakisInfra/offchainMarketMaking.md)
-    - [Integrations](text/introduction/integrations/overview.md)
-      - [HOT AMM](text/introduction/integrations/hotAmm.md)
-      - [Uniswap v4 Hook](text/introduction/integrations/uniV4Hook.md)
-    - [Arrakis Pro](text/introduction/arrakisPro.md)
+- [About Arrakis Docs](text/docsoverview.md)
+
+- [Intro to Arrakis](text/introduction/overview.md)
+  - [History](text/introduction/history.md)
+  - [Problem Statement](text/introduction/problemStatement.md)
+  - [Arrakis Infrastructure](text/introduction/arrakisInfra/overview.md)
+    - [Smart Contract Framework](text/introduction/arrakisInfra/smartContractFramework.md)
+    - [Offchain Market Making](text/introduction/arrakisInfra/offchainMarketMaking.md)
+  - [Integrations]()
+    - [HOT AMM]()
+    - [Uniswap v4 Hook]()
+  - [Arrakis Pro](text/introduction/arrakisPro.md)
 
 ---
 
@@ -180,12 +181,12 @@
     - [Swap](text/hotAmm/quickstartAMM/swap.md)
   - [Whitepaper](text/hotAmm/whitepaper.md)
 
-- [Uniswap v4 Hook](text/uniV4Hook/overview.md)
+- [Uniswap v4 Hook]()
 
 ---
 
 # Resources
 
 - [Audits](text/resources/audits.md)
-- [Research](text/resources/research.md)
+- [Research]()
 - [Legacy Docs](text/resources/oldDocs.md)
