@@ -9,8 +9,9 @@ title = "Arrakis Docs"
 default-theme = "rust"
 preferred-dark-theme = "ayu"
 no-section-label = true
-additional-css = ["theme/css/img-color-scheme.css"]
+additional-css = ["theme/css/img-color-scheme.css", "theme/css/custom-style.css"]
 
 [output.html.fold]
 enable = true
 level = 1
+

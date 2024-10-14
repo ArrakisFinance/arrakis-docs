@@ -27,16 +27,3 @@
     filter: invert(90%);
   }
 }
-.logo-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.1em;
-}
-img#logo {
-  width: 150px;
-}
-
-.sidebar-scrollbox {
-  margin-left: 10px;
-}
