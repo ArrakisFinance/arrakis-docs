@@ -1,14 +1,14 @@
 # IValantisHOTModule
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/b9ae3a6dd7145e0f69f817dcb31abd79f8e19310/src/interfaces/IValantisHOTModule.sol)
 
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IValantisHOTModule.sol)
 
 ## Functions
+
 ### initialize
 
 initialize function to delegate call onced the beacon proxy is deployed,
 for initializing the valantis module.
 who can call deposit and withdraw functions.
-
 
 ```solidity
 function initialize(
@@ -19,21 +19,20 @@ function initialize(
     address metaVault_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`pool_`|`address`|address of the valantis sovereign pool.|
-|`init0_`|`uint256`|initial amount of token0 to provide to valantis module.|
-|`init1_`|`uint256`|initial amount of token1 to provide to valantis module.|
-|`maxSlippage_`|`uint24`|allowed to manager for rebalancing the inventory using swap.|
-|`metaVault_`|`address`|address of the meta vault|
-
+| Name           | Type      | Description                                                  |
+| -------------- | --------- | ------------------------------------------------------------ |
+| `pool_`        | `address` | address of the valantis sovereign pool.                      |
+| `init0_`       | `uint256` | initial amount of token0 to provide to valantis module.      |
+| `init1_`       | `uint256` | initial amount of token1 to provide to valantis module.      |
+| `maxSlippage_` | `uint24`  | allowed to manager for rebalancing the inventory using swap. |
+| `metaVault_`   | `address` | address of the meta vault                                    |
 
 ### setALMAndManagerFees
 
 set HOT and initialize manager fees function.
-
 
 ```solidity
 function setALMAndManagerFees(
@@ -41,18 +40,17 @@ function setALMAndManagerFees(
     address oracle_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`alm_`|`address`|address of the valantis HOT ALM.|
-|`oracle_`|`address`|address of the oracle used by the valantis HOT module.|
-
+| Name      | Type      | Description                                            |
+| --------- | --------- | ------------------------------------------------------ |
+| `alm_`    | `address` | address of the valantis HOT ALM.                       |
+| `oracle_` | `address` | address of the oracle used by the valantis HOT module. |
 
 ### setPriceBounds
 
 fucntion used to set range on valantis AMM
-
 
 ```solidity
 function setPriceBounds(
@@ -62,21 +60,20 @@ function setPriceBounds(
     uint160 _expectedSqrtSpotPriceUpperX96
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`_sqrtPriceLowX96`|`uint160`|lower bound of the range in sqrt price.|
-|`_sqrtPriceHighX96`|`uint160`|upper bound of the range in sqrt price.|
-|`_expectedSqrtSpotPriceLowerX96`|`uint160`|expected upper limit of current spot price (to prevent sandwich attack and manipulation).|
-|`_expectedSqrtSpotPriceUpperX96`|`uint160`|expected lower limit of current spot price (to prevent sandwich attack and manipulation).|
-
+| Name                             | Type      | Description                                                                               |
+| -------------------------------- | --------- | ----------------------------------------------------------------------------------------- |
+| `_sqrtPriceLowX96`               | `uint160` | lower bound of the range in sqrt price.                                                   |
+| `_sqrtPriceHighX96`              | `uint160` | upper bound of the range in sqrt price.                                                   |
+| `_expectedSqrtSpotPriceLowerX96` | `uint160` | expected upper limit of current spot price (to prevent sandwich attack and manipulation). |
+| `_expectedSqrtSpotPriceUpperX96` | `uint160` | expected lower limit of current spot price (to prevent sandwich attack and manipulation). |
 
 ### swap
 
 function to swap token0->token1 or token1->token0 and then change
 inventory.
-
 
 ```solidity
 function swap(
@@ -89,23 +86,22 @@ function swap(
     bytes calldata payload_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`zeroForOne_`|`bool`|boolean if true token0->token1, if false token1->token0.|
-|`expectedMinReturn_`|`uint256`|minimum amount of tokenOut expected.|
-|`amountIn_`|`uint256`|amount of tokenIn used during swap.|
-|`router_`|`address`| address of smart contract that will execute swap.|
-|`expectedSqrtSpotPriceUpperX96_`|`uint160`|upper bound of current price.|
-|`expectedSqrtSpotPriceLowerX96_`|`uint160`|lower bound of current price.|
-|`payload_`|`bytes`|data payload used for swapping.|
-
+| Name                             | Type      | Description                                              |
+| -------------------------------- | --------- | -------------------------------------------------------- |
+| `zeroForOne_`                    | `bool`    | boolean if true token0->token1, if false token1->token0. |
+| `expectedMinReturn_`             | `uint256` | minimum amount of tokenOut expected.                     |
+| `amountIn_`                      | `uint256` | amount of tokenIn used during swap.                      |
+| `router_`                        | `address` | address of smart contract that will execute swap.        |
+| `expectedSqrtSpotPriceUpperX96_` | `uint160` | upper bound of current price.                            |
+| `expectedSqrtSpotPriceLowerX96_` | `uint160` | lower bound of current price.                            |
+| `payload_`                       | `bytes`   | data payload used for swapping.                          |
 
 ### pool
 
 function used to get the valantis hot pool.
-
 
 ```solidity
 function pool() external view returns (ISovereignPool);
@@ -114,7 +110,6 @@ function pool() external view returns (ISovereignPool);
 ### alm
 
 function used to get the valantis hot alm/ liquidity module.
-
 
 ```solidity
 function alm() external view returns (IHOT);
@@ -125,7 +120,6 @@ function alm() external view returns (IHOT);
 function used to get the max slippage that
 can occur during swap rebalance.
 
-
 ```solidity
 function maxSlippage() external view returns (uint24);
 ```
@@ -135,12 +129,12 @@ function maxSlippage() external view returns (uint24);
 function used to get the oracle that
 will be used to proctect rebalances.
 
-
 ```solidity
 function oracle() external view returns (IOracleWrapper);
 ```
 
 ## Events
+
 ### LogSetALM
 
 ```solidity
@@ -165,9 +159,8 @@ event LogSwap(
 ```
 
 ## Errors
+
 ### NoNativeToken
-
-
 
 ```solidity
 error NoNativeToken();
@@ -262,4 +255,3 @@ error OverMaxDeviation();
 ```solidity
 error WrongRouter();
 ```
-

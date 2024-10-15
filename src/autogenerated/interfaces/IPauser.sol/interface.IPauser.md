@@ -1,10 +1,10 @@
 # IPauser
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/b9ae3a6dd7145e0f69f817dcb31abd79f8e19310/src/interfaces/IPauser.sol)
 
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IPauser.sol)
 
 ## Functions
-### pause
 
+### pause
 
 ```solidity
 function pause(address target_) external;
@@ -12,13 +12,11 @@ function pause(address target_) external;
 
 ### whitelistPausers
 
-
 ```solidity
 function whitelistPausers(address[] calldata pausers_) external;
 ```
 
 ### blacklistPausers
-
 
 ```solidity
 function blacklistPausers(address[] calldata pausers_) external;
@@ -26,12 +24,12 @@ function blacklistPausers(address[] calldata pausers_) external;
 
 ### isPauser
 
-
 ```solidity
 function isPauser(address account) external view returns (bool);
 ```
 
 ## Events
+
 ### LogPauserWhitelisted
 
 ```solidity
@@ -51,6 +49,7 @@ event LogPause(address indexed target);
 ```
 
 ## Errors
+
 ### AddressZero
 
 ```solidity
@@ -74,4 +73,3 @@ error NotPauser();
 ```solidity
 error OnlyPauser();
 ```
-
