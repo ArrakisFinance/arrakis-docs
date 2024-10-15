@@ -10,7 +10,7 @@ Comprehensive documentation for developers. Inspired by the [Rust Book](https://
 Clone Repository:
 
 ```shell
-git clone https://github.com/ArrakisFinance/modular-vault-book
+git clone https://github.com/ArrakisFinance/arrakis-docs
 ```
 
 Install mdBook globally:
