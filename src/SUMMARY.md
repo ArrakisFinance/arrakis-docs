@@ -173,7 +173,6 @@
   - [Concepts](text/hotAmm/concepts.md)
   - [Quoter]()
   - [Quickstart RfQ](text/hotAmm/quickstartRfQ/introduction.md)
-    - [Integrating as a Solver](text/hotAmm/quickstartRfQ/solverIntegration.md)
   - [Quickstart AMM](text/hotAmm/quickstartAMM/introduction.md)
     - [Add liquidity](text/hotAmm/quickstartAMM/addLiquidity.md)
     - [Remove liquidity](text/hotAmm/quickstartAMM/removeLiquidity.md)
