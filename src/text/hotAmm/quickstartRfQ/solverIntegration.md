@@ -1,1 +1,0 @@
-# Integrating as a Solver
