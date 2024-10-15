@@ -1,17 +1,16 @@
 # IHOTExecutor
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/b9ae3a6dd7145e0f69f817dcb31abd79f8e19310/src/interfaces/IHOTExecutor.sol)
 
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IHOTExecutor.sol)
 
 ## Functions
-### setW3f
 
+### setW3f
 
 ```solidity
 function setW3f(address newW3f_) external;
 ```
 
 ### rebalance
-
 
 ```solidity
 function rebalance(
@@ -24,19 +23,18 @@ function rebalance(
 
 ### manager
 
-
 ```solidity
 function manager() external view returns (address);
 ```
 
 ### w3f
 
-
 ```solidity
 function w3f() external view returns (address);
 ```
 
 ## Events
+
 ### LogSetW3f
 
 ```solidity
@@ -44,6 +42,7 @@ event LogSetW3f(address newW3f);
 ```
 
 ## Errors
+
 ### AddressZero
 
 ```solidity
@@ -73,4 +72,3 @@ error UnexpectedReservesAmount1();
 ```solidity
 error OnlyW3F();
 ```
-
