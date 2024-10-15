@@ -2,6 +2,6 @@
 
 ## Content
 
-- [Core](./core/README.md)
-- [Public Vaults](./publicVaults/README.md)
-- [Private Vaults](./privateVaults/README.md)
+- [Core](./core)
+- [Public Vaults](./publicVaults)
+- [Private Vaults](./privateVaults)

@@ -2,5 +2,5 @@
 
 ## Content
 
-[ArrakisMetaVault](abstract.ArrakisMetaVault.md)
-[ArrakisMetaVaultFactory](contract.ArrakisMetaVaultFactory.md)
+- [Arrakis Meta Vault](abstract.ArrakisMetaVault.md)
+- [Arrakis Meta Vault Factory](contract.ArrakisMetaVaultFactory.md)
