@@ -1,10 +1,10 @@
 # IRouterSwapResolver
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/b9ae3a6dd7145e0f69f817dcb31abd79f8e19310/src/interfaces/IRouterSwapResolver.sol)
 
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IRouterSwapResolver.sol)
 
 ## Functions
-### calculateSwapAmount
 
+### calculateSwapAmount
 
 ```solidity
 function calculateSwapAmount(
@@ -16,9 +16,9 @@ function calculateSwapAmount(
 ```
 
 ## Errors
+
 ### AddressZero
 
 ```solidity
 error AddressZero();
 ```
-

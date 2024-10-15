@@ -1,12 +1,12 @@
 # IArrakisStandardManager
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/b9ae3a6dd7145e0f69f817dcb31abd79f8e19310/src/interfaces/IArrakisStandardManager.sol)
 
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IArrakisStandardManager.sol)
 
 ## Functions
+
 ### initialize
 
 function used to initialize standard manager proxy.
-
 
 ```solidity
 function initialize(
@@ -15,21 +15,20 @@ function initialize(
     address factory_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`owner_`|`address`|address of the owner of standard manager.|
-|`defaultReceiver_`|`address`|address of the receiver of tokens (by default).|
-|`factory_`|`address`|ArrakisMetaVaultFactory contract address.|
-
+| Name               | Type      | Description                                     |
+| ------------------ | --------- | ----------------------------------------------- |
+| `owner_`           | `address` | address of the owner of standard manager.       |
+| `defaultReceiver_` | `address` | address of the receiver of tokens (by default). |
+| `factory_`         | `address` | ArrakisMetaVaultFactory contract address.       |
 
 ### pause
 
 function used to pause the manager.
 
-*only callable by guardian*
-
+_only callable by guardian_
 
 ```solidity
 function pause() external;
@@ -39,8 +38,7 @@ function pause() external;
 
 function used to unpause the manager.
 
-*only callable by guardian*
-
+_only callable by guardian_
 
 ```solidity
 function unpause() external;
@@ -50,21 +48,19 @@ function unpause() external;
 
 function used to set the default receiver of tokens earned.
 
-
 ```solidity
 function setDefaultReceiver(address newDefaultReceiver_) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`newDefaultReceiver_`|`address`|address of the new default receiver of tokens.|
-
+| Name                  | Type      | Description                                    |
+| --------------------- | --------- | ---------------------------------------------- |
+| `newDefaultReceiver_` | `address` | address of the new default receiver of tokens. |
 
 ### setReceiverByToken
 
 function used to set receiver of a specific token.
-
 
 ```solidity
 function setReceiverByToken(
@@ -73,19 +69,18 @@ function setReceiverByToken(
     address receiver_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of the meta vault that contain the specific token.|
-|`isSetReceiverToken0_`|`bool`|boolean if true means that receiver is for token0 if not it's for token1.|
-|`receiver_`|`address`|address of the receiver of this specific token.|
-
+| Name                   | Type      | Description                                                               |
+| ---------------------- | --------- | ------------------------------------------------------------------------- |
+| `vault_`               | `address` | address of the meta vault that contain the specific token.                |
+| `isSetReceiverToken0_` | `bool`    | boolean if true means that receiver is for token0 if not it's for token1. |
+| `receiver_`            | `address` | address of the receiver of this specific token.                           |
 
 ### decreaseManagerFeePIPS
 
 function used to decrease the fees taken by manager for a specific managed vault.
-
 
 ```solidity
 function decreaseManagerFeePIPS(
@@ -93,33 +88,31 @@ function decreaseManagerFeePIPS(
     uint24 newFeePIPS_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of the vault.|
-|`newFeePIPS_`|`uint24`|fees in pips to set on the specific vault.|
-
+| Name          | Type      | Description                                |
+| ------------- | --------- | ------------------------------------------ |
+| `vault_`      | `address` | address of the vault.                      |
+| `newFeePIPS_` | `uint24`  | fees in pips to set on the specific vault. |
 
 ### finalizeIncreaseManagerFeePIPS
 
 function used to finalize a time lock fees increase on a vault.
 
-
 ```solidity
 function finalizeIncreaseManagerFeePIPS(address vault_) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of the vault where the fees increase will be applied.|
-
+| Name     | Type      | Description                                                   |
+| -------- | --------- | ------------------------------------------------------------- |
+| `vault_` | `address` | address of the vault where the fees increase will be applied. |
 
 ### submitIncreaseManagerFeePIPS
 
 function used to submit a fees increase in a managed vault.
-
 
 ```solidity
 function submitIncreaseManagerFeePIPS(
@@ -127,43 +120,41 @@ function submitIncreaseManagerFeePIPS(
     uint24 newFeePIPS_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of the vault where fees will be increase after timeLock.|
-|`newFeePIPS_`|`uint24`|fees in pips to set on the specific managed vault.|
-
+| Name          | Type      | Description                                                      |
+| ------------- | --------- | ---------------------------------------------------------------- |
+| `vault_`      | `address` | address of the vault where fees will be increase after timeLock. |
+| `newFeePIPS_` | `uint24`  | fees in pips to set on the specific managed vault.               |
 
 ### withdrawManagerBalance
 
 function used by manager to get his balance of fees earned
 on a vault.
 
-
 ```solidity
 function withdrawManagerBalance(address vault_)
     external
     returns (uint256 amount0, uint256 amount1);
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|from which fees will be collected.|
+| Name     | Type      | Description                        |
+| -------- | --------- | ---------------------------------- |
+| `vault_` | `address` | from which fees will be collected. |
 
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`amount0`|`uint256`|amount of token0 sent to receiver_|
-|`amount1`|`uint256`|amount of token1 sent to receiver_|
-
+| Name      | Type      | Description                         |
+| --------- | --------- | ----------------------------------- |
+| `amount0` | `uint256` | amount of token0 sent to receiver\_ |
+| `amount1` | `uint256` | amount of token1 sent to receiver\_ |
 
 ### rebalance
 
 function used to manage vault's strategy.
-
 
 ```solidity
 function rebalance(
@@ -171,18 +162,17 @@ function rebalance(
     bytes[] calldata payloads_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of the vault that need a rebalance.|
-|`payloads_`|`bytes[]`|call data to do specific action of vault side.|
-
+| Name        | Type      | Description                                    |
+| ----------- | --------- | ---------------------------------------------- |
+| `vault_`    | `address` | address of the vault that need a rebalance.    |
+| `payloads_` | `bytes[]` | call data to do specific action of vault side. |
 
 ### setModule
 
 function used to set a new module (strategy) for the vault.
-
 
 ```solidity
 function setModule(
@@ -191,49 +181,46 @@ function setModule(
     bytes[] calldata payloads_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of the vault the manager want to change module.|
-|`module_`|`address`|address of the new module.|
-|`payloads_`|`bytes[]`|call data to initialize position on the new module.|
-
+| Name        | Type      | Description                                             |
+| ----------- | --------- | ------------------------------------------------------- |
+| `vault_`    | `address` | address of the vault the manager want to change module. |
+| `module_`   | `address` | address of the new module.                              |
+| `payloads_` | `bytes[]` | call data to initialize position on the new module.     |
 
 ### initManagement
 
 function used to init management of a meta vault.
 
-
 ```solidity
 function initManagement(SetupParams calldata params_) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`params_`|`SetupParams`|struct containing all the data for initialize the vault.|
-
+| Name      | Type          | Description                                              |
+| --------- | ------------- | -------------------------------------------------------- |
+| `params_` | `SetupParams` | struct containing all the data for initialize the vault. |
 
 ### updateVaultInfo
 
 function used to update meta vault management informations.
 
-
 ```solidity
 function updateVaultInfo(SetupParams calldata params_) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`params_`|`SetupParams`|struct containing all the data for updating the vault.|
-
+| Name      | Type          | Description                                            |
+| --------- | ------------- | ------------------------------------------------------ |
+| `params_` | `SetupParams` | struct containing all the data for updating the vault. |
 
 ### announceStrategy
 
 function used to announce the strategy that the vault will follow.
-
 
 ```solidity
 function announceStrategy(
@@ -241,18 +228,17 @@ function announceStrategy(
     string memory strategy_
 ) external;
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of arrakis meta vault that will follow the strategy.|
-|`strategy_`|`string`|string containing the strategy name that will be used.|
-
+| Name        | Type      | Description                                                  |
+| ----------- | --------- | ------------------------------------------------------------ |
+| `vault_`    | `address` | address of arrakis meta vault that will follow the strategy. |
+| `strategy_` | `string`  | string containing the strategy name that will be used.       |
 
 ### initializedVaults
 
 function used to get a list of managed vaults.
-
 
 ```solidity
 function initializedVaults(
@@ -260,18 +246,17 @@ function initializedVaults(
     uint256 endIndex_
 ) external view returns (address[] memory);
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`startIndex_`|`uint256`|starting index from which the caller want to read the array of managed vaults.|
-|`endIndex_`|`uint256`|ending index until which the caller want to read the array of managed vaults.|
-
+| Name          | Type      | Description                                                                    |
+| ------------- | --------- | ------------------------------------------------------------------------------ |
+| `startIndex_` | `uint256` | starting index from which the caller want to read the array of managed vaults. |
+| `endIndex_`   | `uint256` | ending index until which the caller want to read the array of managed vaults.  |
 
 ### numInitializedVaults
 
 function used to get the number of vault under management.
-
 
 ```solidity
 function numInitializedVaults()
@@ -284,96 +269,89 @@ function numInitializedVaults()
 
 address of the pauser of manager.
 
-
 ```solidity
 function guardian() external view returns (address);
 ```
+
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`<none>`|`address`|pauser address that can pause/unpause manager.|
-
+| Name     | Type      | Description                                    |
+| -------- | --------- | ---------------------------------------------- |
+| `<none>` | `address` | pauser address that can pause/unpause manager. |
 
 ### factory
 
 address of the vault factory.
 
-
 ```solidity
 function factory() external view returns (address);
 ```
+
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`<none>`|`address`|factory address that can deploy meta vault.|
-
+| Name     | Type      | Description                                 |
+| -------- | --------- | ------------------------------------------- |
+| `<none>` | `address` | factory address that can deploy meta vault. |
 
 ### defaultFeePIPS
 
 function used to get the default fee applied on manager vault.
 
-
 ```solidity
 function defaultFeePIPS() external view returns (uint256);
 ```
+
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`<none>`|`uint256`|defaultFeePIPS amount of default fees.|
-
+| Name     | Type      | Description                            |
+| -------- | --------- | -------------------------------------- |
+| `<none>` | `uint256` | defaultFeePIPS amount of default fees. |
 
 ### nativeToken
 
 function used to get the native token/coin of the chain.
 
-
 ```solidity
 function nativeToken() external view returns (address);
 ```
+
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`<none>`|`address`|nativeToken address of the native token/coin of the chain.|
-
+| Name     | Type      | Description                                                |
+| -------- | --------- | ---------------------------------------------------------- |
+| `<none>` | `address` | nativeToken address of the native token/coin of the chain. |
 
 ### nativeTokenDecimals
 
 function used to get the native token/coin decimals precision.
 
-
 ```solidity
 function nativeTokenDecimals() external view returns (uint8);
 ```
+
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`<none>`|`uint8`|nativeTokenDecimals decimals precision of the native coin.|
-
+| Name     | Type    | Description                                                |
+| -------- | ------- | ---------------------------------------------------------- |
+| `<none>` | `uint8` | nativeTokenDecimals decimals precision of the native coin. |
 
 ### defaultReceiver
 
 function used to get the default receiver of tokens earned in managed vault.
 
-
 ```solidity
 function defaultReceiver() external view returns (address);
 ```
+
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`<none>`|`address`|defaultReceiver address of the default receiver.|
-
+| Name     | Type      | Description                                      |
+| -------- | --------- | ------------------------------------------------ |
+| `<none>` | `address` | defaultReceiver address of the default receiver. |
 
 ### receiversByToken
 
 function used to get the receiver of a specific token.
-
 
 ```solidity
 function receiversByToken(address token_)
@@ -381,23 +359,22 @@ function receiversByToken(address token_)
     view
     returns (address receiver);
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`token_`|`address`|address of the ERC20 token that we want the receiver of|
+| Name     | Type      | Description                                             |
+| -------- | --------- | ------------------------------------------------------- |
+| `token_` | `address` | address of the ERC20 token that we want the receiver of |
 
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`receiver`|`address`|address of the receiver of 'token_'|
-
+| Name       | Type      | Description                          |
+| ---------- | --------- | ------------------------------------ |
+| `receiver` | `address` | address of the receiver of 'token\_' |
 
 ### vaultInfo
 
 function used to get vault management config.
-
 
 ```solidity
 function vaultInfo(address vault_)
@@ -414,27 +391,28 @@ function vaultInfo(address vault_)
         uint24 managerFeePIPS
     );
 ```
+
 **Parameters**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`vault_`|`address`|address of the metaVault.|
+| Name     | Type      | Description               |
+| -------- | --------- | ------------------------- |
+| `vault_` | `address` | address of the metaVault. |
 
 **Returns**
 
-|Name|Type|Description|
-|----|----|-----------|
-|`lastRebalance`|`uint256`|timestamp when the last rebalance happen.|
-|`cooldownPeriod`|`uint256`|minimum duration between two rebalance.|
-|`oracle`|`IOracleWrapper`|oracle used to check against price manipulation.|
-|`maxDeviation`|`uint24`|maximum deviation from oracle price allowed.|
-|`executor`|`address`|address that can trigger a rebalance.|
-|`stratAnnouncer`|`address`|address that will announce a strategy to follow.|
-|`maxSlippagePIPS`|`uint24`|maximum slippage authorized.|
-|`managerFeePIPS`|`uint24`|fees that manager take.|
-
+| Name              | Type             | Description                                      |
+| ----------------- | ---------------- | ------------------------------------------------ |
+| `lastRebalance`   | `uint256`        | timestamp when the last rebalance happen.        |
+| `cooldownPeriod`  | `uint256`        | minimum duration between two rebalance.          |
+| `oracle`          | `IOracleWrapper` | oracle used to check against price manipulation. |
+| `maxDeviation`    | `uint24`         | maximum deviation from oracle price allowed.     |
+| `executor`        | `address`        | address that can trigger a rebalance.            |
+| `stratAnnouncer`  | `address`        | address that will announce a strategy to follow. |
+| `maxSlippagePIPS` | `uint24`         | maximum slippage authorized.                     |
+| `managerFeePIPS`  | `uint24`         | fees that manager take.                          |
 
 ## Events
+
 ### LogWhitelistNftRebalancers
 
 ```solidity
@@ -560,6 +538,7 @@ event LogStrategyAnnouncement(address vault, string strategy);
 ```
 
 ## Errors
+
 ### EmptyNftRebalancersArray
 
 ```solidity
@@ -829,4 +808,3 @@ error OnlyStratAnnouncer();
 ```solidity
 error PublicVaultTotalSupplyChanged();
 ```
-
