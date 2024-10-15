@@ -167,7 +167,7 @@
 
     - [Problem Statement](text/modules/hotAmm/problemStatement.md)
     - [Concepts](text/modules/hotAmm/concepts.md)
-    - [Quoter]()
+    - [Quoter](text/modules/hotAmm/quoter.md)
     - [Quickstart](text/modules/hotAmm/quickstart/introduction.md)
       - [Integrating as a Solver](text/modules/hotAmm/quickstart/solverIntegration.md)
       - [Permissionless AMM](text/modules/hotAmm/quickstart/amm.md)
