@@ -51,9 +51,9 @@ img#logo {
 
   --warning-border: #ff8e00;
 
-  --table-border-color: hsl(60, 9%, 82%);
-  --table-header-bg: #b3a497;
-  --table-alternate-bg: hsl(60, 9%, 84%);
+  --table-border-color: hsl(36 31% 83%);
+  --table-header-bg: #a4958a;
+  --table-alternate-bg: #cec5be;
 
   --searchbar-border-color: #aaa;
   --searchbar-bg: #fafafa;
