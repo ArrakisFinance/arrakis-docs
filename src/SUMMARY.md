@@ -8,8 +8,8 @@
   - [History](text/introduction/history.md)
   - [Problem Statement](text/introduction/problemStatement.md)
   - [Arrakis Infrastructure](text/introduction/arrakisInfra/overview.md)
-    - [Smart Contract Framework](text/introduction/arrakisInfra/smartContractFramework.md)
     - [Offchain Market Making](text/introduction/arrakisInfra/offchainMarketMaking.md)
+    - [Smart Contract Framework](text/introduction/arrakisInfra/smartContractFramework.md)
   - [Integrations](text/introduction/integrations/overview.md)
     - [HOT AMM](text/introduction/integrations/hotAmm.md)
     - [Uniswap v4 Hook](text/introduction/integrations/uniV4Hook.md)
@@ -173,12 +173,12 @@
       - [Permissionless AMM](text/modules/hotAmm/quickstart/amm.md)
     - [Whitepaper](text/modules/hotAmm/whitepaper.md)
 
-  - [Uniswap v4 Hook](text/modules/uniV4Hook/overview.md)
+  - [Uniswap v4 Hook (Soon)](text/modules/uniV4Hook/overview.md)
 
 ---
 
 # Resources
 
 - [Audits](text/resources/audits.md)
-- [Research]()
+- [Research](text/resources/research.md)
 - [Legacy Docs](text/resources/oldDocs.md)

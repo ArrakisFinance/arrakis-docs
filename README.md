@@ -1,9 +1,6 @@
-# Arrakis Docs
+# Arrakis Documentation
 
 Comprehensive documentation for developers. Inspired by the [Rust Book](https://doc.rust-lang.org/book/).
-
-
-
 
 ## Setup
 

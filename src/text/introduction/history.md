@@ -14,9 +14,7 @@ Since mid 2023, Arrakis has been focussed on the next generation of AMMs and MEV
 ## Centralised Actors Taking Over DeFi
 We are in the midst of a shift in DeFi. As Ethereum has grown, sophisticated actors have infiltrated DeFi and leveraged complex strategies to extract value from the ecosystem. 
 
-Naturally this has increased the scope of the [problem statement](problem-statement.md) Arrakis is tackling.
-
-Whilst that the problem statement we are tackling has grown to encompass recapturing MEV from centralised actors who are extractive to the ecosystem, the core problem we are solving has not changed.
+Naturally this has increased the scope of the [problem statement](problem-statement.md) Arrakis is tackling. It has grown to encompass recapturing MEV from centralised actors who are extractive to the ecosystem. Arrakis aims to give token issuers and LPs a fairer share of the pie.
 
 Arrakis is focused on being a decentralized **onchain market making** solution, with a key feature of built-in MEV-Awareness / vertical integration into the MEV supply chain. Arrakis aims to give all token markets a seamless *next-generation onchain spot market liquidity provision experience*.
 
