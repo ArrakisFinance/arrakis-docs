@@ -16,3 +16,58 @@ img#logo {
 .sidebar-scrollbox {
   margin-left: 10px;
 }
+
+.rust {
+  #searchbar:focus {
+    outline: 1px solid #8a4503;
+    border: 1px solid #8a4503;
+  }
+}
+.rust {
+  --bg: #ede6e0;
+  --fg: #262625;
+
+  --sidebar-bg: #2d2824;
+  --sidebar-fg: #eae8e7;
+  --sidebar-non-existant: #505254;
+  --sidebar-active: #df953a;
+  --sidebar-spacer: #5c5249;
+
+  --scrollbar: var(--sidebar-fg);
+
+  --icons: #737480;
+  --icons-hover: #262625;
+
+  --links: #8a4503;
+
+  --inline-code-color: #6e6b5e;
+
+  --theme-popup-bg: #e1e1db;
+  --theme-popup-border: #b38f6b;
+  --theme-hover: #99908a;
+
+  --quote-bg: hsl(60, 5%, 75%);
+  --quote-border: hsl(60, 5%, 70%);
+
+  --warning-border: #ff8e00;
+
+  --table-border-color: hsl(36 31% 83%);
+  --table-header-bg: #a4958a;
+  --table-alternate-bg: #cec5be;
+
+  --searchbar-border-color: #aaa;
+  --searchbar-bg: #fafafa;
+  --searchbar-fg: #000;
+  --searchbar-shadow-color: #aaa;
+  --searchresults-header-fg: #666;
+  --searchresults-border-color: #888;
+  --searchresults-li-bg: #dec2a2;
+  --search-mark-bg: #e69f67;
+
+  /* Same as `--icons` */
+  --copy-button-filter: invert(51%) sepia(10%) saturate(393%) hue-rotate(198deg)
+    brightness(86%) contrast(87%);
+  /* Same as `--sidebar-active` */
+  --copy-button-filter-hover: invert(77%) sepia(16%) saturate(1798%)
+    hue-rotate(328deg) brightness(98%) contrast(83%);
+}
