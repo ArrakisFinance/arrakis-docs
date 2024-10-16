@@ -9,14 +9,9 @@ The documentation is structured into three main sections:
 - [Developer Docs](arrakisModular/overview.md)
 - [Resources](resources.md)
 
-[Intro to Arrakis](introduction/introduction.md) is a non-technical tl;dr of the problem we're solving, our smart contract architecture, our offchain market making infrastructure, integrations and user-facing products. 
+[Intro to Arrakis](introduction/introduction.md) is a non-technical tl;dr of the problem we're solving, the Arrakis infrastructure, integrations and user-facing products. 
 
-[Developer Docs](arrakisModular/overview.md) covers the smart contract framework, offchain market making infrastructure, how to get started, an extensive technical reference and more. It is aimed at developers interested in understanding the inner workings of Arrakis who are already familiar with Ethereum and the DeFi ecosystem. This section is split into three parts:
-- [Arrakis Modular](arrakisModular/overview.md): The next evolution of the Arrakis smart contract framework for onchain liquidity management. Arrakis Modular introduces a universal Meta-Vault standard. This modular framework makes integrating new protocols easier and faster.
-
-- [HOT AMM](hotAMM/overview.md): HOT improves returns and maximizes capital efficiency for LPs, by internalizing MEV using an intent-based design. Designed in partnership with Valantis Labs, built on the [Valantis Modular DEX Framework](https://docs.valantis.xyz/). It is the first integration on Arrakis Modular and is powered by Arrakis's offchain market making infrastructure.
-
-- [Uniswap v4 Hook](uniV4Hook/overview.md): Coming soon...
+[Developer Docs](arrakisModular/overview.md) covers smart contract architecture, how to get started guides, an extensive technical reference and more. It also includes module integrations such as HOT AMM. It is aimed at developers interested in understanding the inner workings of Arrakis who are already familiar with Ethereum and the DeFi ecosystem. 
 
 [Resources](resources.md) contains links to smart contract audits, our research and legacy documentation for Arrakis v1 & v2.
 
