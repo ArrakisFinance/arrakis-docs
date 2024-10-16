@@ -258,8 +258,6 @@ function withdrawManagerBalance(address vault_)
 
 ### rebalance
 
-NOTE I removed this line bc if vault removal is a thing then we'd still want to colect on _previously whitelisted vaults_
-
 function used to manage vault's strategy.
 
 ```solidity

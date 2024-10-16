@@ -2,7 +2,7 @@
 
 LPs are getting rekt by toxic order flow. HOT improves returns and maximizes capital efficiency for LPs, by internalizing MEV using an intent-based design.
 
-HOT is a first of it's kind hybrid AMM design, that combines the permissionless properties of AMMs with the capital efficiency and non-toxic order flow of intents protocols.
+HOT is a first of its kind hybrid AMM design, that combines the permissionless properties of AMMs with the capital efficiency and non-toxic order flow of intents protocols.
 
 ## Problem Statement
 
