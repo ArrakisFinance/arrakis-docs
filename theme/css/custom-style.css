@@ -46,8 +46,8 @@ img#logo {
   --theme-popup-border: #b38f6b;
   --theme-hover: #99908a;
 
-  --quote-bg: hsl(60, 5%, 75%);
-  --quote-border: hsl(60, 5%, 70%);
+  --quote-bg: #cec5be;
+  --quote-border: hsl(36 31% 83%);
 
   --warning-border: #ff8e00;
 

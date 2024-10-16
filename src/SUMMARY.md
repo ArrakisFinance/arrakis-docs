@@ -190,4 +190,4 @@
 
 - [Audits](text/resources/audits.md)
 - [Research](text/resources/research.md)
-- [Legacy Docs](text/resources/oldDocs.md)
+- [Legacy Docs](text/resources/legacyDocs.md)
