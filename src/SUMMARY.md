@@ -63,6 +63,14 @@
       - [ArrakisPublicVaultRouter](text/arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md)
       - [RouterSwapExecutor](text/arrakisModular/technicalReference/routers/contract.RouterSwapExecutor.md)
       - [RouterSwapResolver](text/arrakisModular/technicalReference/routers/contract.RouterSwapResolver.md)
+      - [Structs](text/arrakisModular/technicalReference/routers/structs/README.md)
+        - [AddLiquidityData](text/arrakisModular/technicalReference/routers/structs/struct.AddLiquidityData.md)
+        - [AddLiquidityPermit2Data](text/arrakisModular/technicalReference/routers/structs/struct.AddLiquidityPermit2Data.md)
+        - [RemoveLiquidityData](text/arrakisModular/technicalReference/routers/structs/struct.RemoveLiquidityData.md)
+        - [RemoveLiquidityPermit2Data](text/arrakisModular/technicalReference/routers/structs/struct.RemoveLiquidityPermit2Data.md)
+        - [SwapAndAddData](text/arrakisModular/technicalReference/routers/structs/struct.SwapAndAddData.md)
+        - [SwapAndAddPermit2Data](text/arrakisModular/technicalReference/routers/structs/struct.SwapAndAddPermit2Data.md)
+        - [SwapData](text/arrakisModular/technicalReference/routers/structs/struct.SwapData.md)
 
     - [Admin and Security](text/arrakisModular/technicalReference/adminAndSec/README.md)
 
@@ -171,6 +179,7 @@
     - [Quickstart](text/modules/hotAmm/quickstart/introduction.md)
       - [Integrating as a Solver](text/modules/hotAmm/quickstart/solverIntegration.md)
       - [Permissionless AMM](text/modules/hotAmm/quickstart/amm.md)
+    - [Deployments](text/modules/hotAmm/deployments.md)
     - [Whitepaper](text/modules/hotAmm/whitepaper.md)
 
   - [Uniswap v4 Hook](text/modules/uniV4Hook/overview.md)

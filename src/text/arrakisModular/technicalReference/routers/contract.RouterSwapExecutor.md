@@ -47,9 +47,9 @@ function swap(SwapAndAddData memory params_)
 
 **Parameters**
 
-| Name      | Type             | Description                                          |
-| --------- | ---------------- | ---------------------------------------------------- |
-| `params_` | `SwapAndAddData` | struct containing all the informations for swapping. |
+| Name      | Type                                                   | Description                                          |
+| --------- | ------------------------------------------------------ | ---------------------------------------------------- |
+| `params_` | [`SwapAndAddData`](./structs/struct.SwapAndAddData.md) | struct containing all the informations for swapping. |
 
 **Returns**
 
