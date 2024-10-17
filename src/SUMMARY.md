@@ -188,6 +188,7 @@
 
 # Resources
 
+- [Overview](text/resources/overview.md)
 - [Audits](text/resources/audits.md)
 - [Research](text/resources/research.md)
 - [Legacy Docs](text/resources/legacyDocs.md)
