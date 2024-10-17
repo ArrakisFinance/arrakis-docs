@@ -1,0 +1,18 @@
+steps:
+  # Step 1: Build the docs
+  - name: rust:1.76
+    args:
+      - "-c"
+      - |
+        cargo install mdbook
+        mdbook build
+    id: BuildDocs
+    entrypoint: bash
+  # Step 2: Copy file to cloud storage
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'cp', '-r', 'book/*', 'gs://arrakis-docs']
+    id: CopyToStorage
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  workerPool: projects/$PROJECT_ID/locations/$_REGION/workerPools/private-pool
