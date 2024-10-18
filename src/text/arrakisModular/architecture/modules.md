@@ -6,7 +6,7 @@ Modules are smart contracts that act as a bridge between Meta Vaults and specifi
 <img src="../../../img/module-registry.svg" alt="nft" width="300" class="img-svg"/>
 </p>
 
-These modules are whitelisted through public and private registry contracts to ensure security and proper functionality. While currently focused on single DEX integrations, the modular design allows for potential expansion into more complex scenarios, such as multi-DEX interactions or integration with other DeFi protocols.
+These modules are whitelisted through public and private registry contracts to ensure security and proper functionality. While currently focused on single DEX integrations, the modular design allows for potential expansion into more complex scenarios, such as multi-DEX interactions or integration with other types of DeFi protocols.
 
 The key strength of modules lies in their flexibility and standardization. As new DEXs emerge or trading strategies evolve, new modules can be created and integrated seamlessly, enabling the Arrakis system to adapt to the rapidly changing DeFi landscape.
 

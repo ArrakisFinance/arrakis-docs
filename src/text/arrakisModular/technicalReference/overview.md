@@ -1,5 +1,7 @@
 # Technical reference
 
+Welcome to the smart contract technical reference of the Arrakis Modular smart contract framework. [See Here](https://github.com/ArrakisFinance/arrakis-modular) for the github repository.
+
 ## Getting Started
 
 In order to run the test suite of Arrakis modular smart contracts, follow these steps:
