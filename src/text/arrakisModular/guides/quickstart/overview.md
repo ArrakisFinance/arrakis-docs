@@ -1,6 +1,6 @@
 # Quickstart
 
-A quickstart guide to understanding and interacting with an Arrakis Modular Public Vault. We explain how to use deposit and remove funds from a vault.
+A quickstart guide to understanding and interacting with an Arrakis Modular Public Vault. We explain how to deposit and remove funds from a vault.
 
 - [TL;DR](./introduction.md) 
 - [Modularity](./modularity.md) 
