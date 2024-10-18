@@ -9,7 +9,3 @@ To address this, Arrakis Modular introduces a universal Meta-Vault standard. Thi
 - **Scalability**: Adapting to new liquidity pool types becomes straightforward, focusing on module development rather than protocol overhauls.
 
 **With Arrakis Modular essentially any onchain DeFi strategy based on a dual-asset underlying can be created and tokenized, simply by developing the corresponding module which correctly adheres to the Arrakis Meta-Vault module interface**
-
-We envision Arrakis Modular not only as a technical advancement internally, but as a platform for community and developer collaboration, inviting contributions to the ecosystem. With this modular approach, Arrakis Finance is poised to rapidly adapt to the evolving DeFi landscape, unlocking new possibilities for liquidity management.
-
-Finally, note that the potential for modules extends beyond single DEX integrations. While current use cases focus on modules which each integrate an individual DEX liquidity provision protocol, in theory, modules could become more complex, enabling integrations with multiple DEXs simultaneously or combining DEX and peripheral protocols like lending markets or options protocols for advanced functionality (hedging and delta-neutral strategies etc). The architecture of Arrakis Modular supports such future innovations.
