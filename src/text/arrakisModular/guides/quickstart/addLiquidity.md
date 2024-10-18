@@ -4,7 +4,7 @@ To make the deposit process safe and simple we have designed the _Arrakis Public
 
 The following provides a step-by-step explanation of manually creating and sending an `addLiquidity` transaction to deposit into an Arrakis Public Vault.
 
-1. Identify the Meta Vault associated to the pair you want to participate in. See for example [here](../../../modules/hotAmm/deployments.md) for a full list of deployment addresses related to HOT AMM.
+1. Identify the Meta Vault associated to the pair you want to participate in. See for example [here](../../publicVaults.md) for a full list of live Arrakis Public Vaults.
 2. From now on, we use the Arrakis Public Router contract, defined here
    [`ArrakisPublicVaultRouter.sol`](../../technicalReference/routers/contract.ArrakisPublicVaultRouter.md)
 3. Next step is to determine how many of each tokens you expect to need to join the Meta Vault.

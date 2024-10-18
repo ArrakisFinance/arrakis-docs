@@ -34,7 +34,7 @@
       - [Add Liquidity](text/arrakisModular/guides/quickstart/addLiquidity.md)
       - [Remove Liquidity](text/arrakisModular/guides/quickstart/removeLiquidity.md)
   - [Deployments](text/arrakisModular/deployments.md)
-  - [Public Vaults](text/arrakisModular/publicVaults.md)
+  - [Public Vault List](text/arrakisModular/publicVaults.md)
   - [Technical Reference](text/arrakisModular/technicalReference/overview.md)
 
     - [Contracts overview](text/arrakisModular/technicalReference/contractsOverview.md)
