@@ -13,7 +13,7 @@ This is the first and flagship Arrakis Modular Public Vault.
 - Type: `ERC20`
 - Symbol: `ARRAKIS`
 - Active Module: [`HOT AMM`](../modules/hotAmm/overview.md)
-- Whitelisted Modules: [`HOT AMM`](../modules/hotAmm/overview.md), [`Bunker]() (safety module)
+- Whitelisted Modules: [`HOT AMM`](../modules/hotAmm/overview.md), [`Bunker`]() (safety module)
 - Vault Owner (Timelock): [`0xCFaD8B6981Da1c734352Bd31618040C23FE99117`](https://etherscan.io/address/0xCFaD8B6981Da1c734352Bd31618040C23FE99117)
 - Vault Timelock Admin: [`0x5108EF86cF493905BcD35A3736e4B46DeCD7de58`](https://etherscan.io/address/0x5108EF86cF493905BcD35A3736e4B46DeCD7de58) (Arrakis Multisig)
 
