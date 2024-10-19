@@ -1,9 +1,11 @@
 # Architecture
 
-At the heart of the Arrakis Modular system is the concept of Meta Vaults. These Meta Vaults enable users wishing to provide liquidity with two distinct assets to do so across any trading venue—without the need to deploy or migrate funds to new vaults. Meta Vaults have the capability to whitelist various _modules_, essentially smart contracts that establish integration with liquidity-consuming dApps. This design ensures that as new DEXs emerge, liquidity provision becomes a matter of simply creating and whitelisting a new module compatible with the DEX, and then activating it.
+[Meta Vault](../architecture/metaVaults.md): At the heart of the Arrakis Modular system is the concept of a Meta Vault. The Meta Vault creates a unified standard for providing two-sided liquidity to DEXs regardless of the particular features or interfaces of a given DEX.
 
+[Modules](../architecture/modules.md): Each Meta Vault has the capability to whitelist various modules. A module is essentially a smart contract that establishes an integration with a liquidity-consuming dApp.
 
-<p align="center">
-<br><br>
-<img src="../../../img/arrakis-modular-architecture.svg" alt="architecture" class="img-svg"/>
-</p>
+[Configuration](../architecture/configuration.md): Each Meta Vaults is configurable by the Vault `owner`. This design ensures that as new DEXs emerge, Arrakis integration becomes a matter of simply creating and whitelisting a new module compatible with the DEX, and then activating it.
+
+[Diagram](../architecture/diagram.md): Arrakis Modular smart contract system represented visually.
+
+[Security](../architecture/security.md): Arrakis Modular from a Security POV.

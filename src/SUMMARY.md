@@ -2,18 +2,10 @@
 
 # Overview
 
-- [About Arrakis Docs](text/docsoverview.md)
-
-- [Intro to Arrakis](text/introduction/overview.md)
-  - [History](text/introduction/history.md)
-  - [Problem Statement](text/introduction/problemStatement.md)
-  - [Arrakis Infrastructure](text/introduction/arrakisInfra/overview.md)
-    - [Offchain Market Making](text/introduction/arrakisInfra/offchainMarketMaking.md)
-    - [Smart Contract Framework](text/introduction/arrakisInfra/smartContractFramework.md)
-  - [Integrations](text/introduction/integrations/overview.md)
-    - [HOT AMM](text/introduction/integrations/hotAmm.md)
-    - [Uniswap v4 Hook](text/introduction/integrations/uniV4Hook.md)
-  - [Arrakis Pro](text/introduction/arrakisPro.md)
+- [Intro](text/docsoverview.md)
+- [Arrakis Infrastructure](text/introduction/arrakisInfra.md)
+- [Brand New HOT AMM](text/introduction/integrations/hotAmm.md)
+- [Arrakis Pro](text/introduction/arrakisPro.md)
 
 ---
 
@@ -25,16 +17,11 @@
     - [Meta Vaults](text/arrakisModular/architecture/metaVaults.md)
     - [Modules](text/arrakisModular/architecture/modules.md)
     - [Configuration](text/arrakisModular/architecture/configuration.md)
-    - [Admin and Security](text/arrakisModular/architecture/adminAndSec.md)
-    - [Routers](text/arrakisModular/architecture/routers.md)
-  - [Guides](text/arrakisModular/guides/overview.md)
-    - [Quickstart: Public Vaults](text/arrakisModular/guides/quickstart/overview.md)
-      - [TL;DR](text/arrakisModular/guides/quickstart/introduction.md)
-      - [Modularity](text/arrakisModular/guides/quickstart/modularity.md)
-      - [Add Liquidity](text/arrakisModular/guides/quickstart/addLiquidity.md)
-      - [Remove Liquidity](text/arrakisModular/guides/quickstart/removeLiquidity.md)
-  - [Deployments](text/arrakisModular/deployments.md)
+    - [Diagram](text/arrakisModular/architecture/diagram.md)
+    - [Security](text/arrakisModular/architecture/security.md)
+  - [Quickstart: Public Vaults](text/arrakisModular/quickstart.md)
   - [Public Vault List](text/arrakisModular/publicVaults.md)
+  - [Deployments](text/arrakisModular/deployments.md)
   - [Technical Reference](text/arrakisModular/technicalReference/overview.md)
 
     - [Contracts overview](text/arrakisModular/technicalReference/contractsOverview.md)
@@ -191,7 +178,8 @@
 
 # Resources
 
-- [Overview](text/resources/overview.md)
+- [Contents](text/resources/overview.md)
 - [Audits](text/resources/audits.md)
 - [Research](text/resources/research.md)
 - [Legacy Docs](text/resources/legacyDocs.md)
+- [History](text/resources/history.md)

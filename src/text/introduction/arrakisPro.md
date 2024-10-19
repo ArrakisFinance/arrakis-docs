@@ -1,4 +1,4 @@
-# Arrakis Pro: Liquidity Management for Token Issuers
+# Arrakis Pro
 
 Arrakis Pro is the industry leading, non-custodial onchain liquidity management solution for token issuers (protocols and DAOs). Arrakis Pro powers protocol owned liquidity.
 
@@ -20,10 +20,10 @@ Protocols and DAOs can benefit from the following:
 ## Solution
 Arrakis Pro simplifies the process of managing concentrated liquidity by automating liquidity provisioning and rebalancing, for any concentrated liquidity pool (including Uniswap v3, HOT AMM and Uniswap v4). Arrakis Pro is powered by Arrakis's Offchain Market Making infrastructure.
 
-Arrakis Pro was formerly known as PALM (built on top of Uniswap v3). With Arrakis Modular — the new and improved version of the Arrakis vaults — any DEX can be supported. 
+Arrakis Pro was formerly known as PALM (built on top of Uniswap v3). With Arrakis Modular — the new and improved version of the Arrakis vaults — any DEX can be supported.
 
 ## Get in Touch
-Arrakis Pro is trusted by Maker, EtherFi, Across, Lido, Stargate, Gnosis, Angle, Mountain, Kwenta, Index, Sturdy, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over $20B in transactions.
+Arrakis is trusted by MakerDAO, Lido, EtherFi, Across, Stargate, Gnosis, Redacted Cartel, Angle, Mountain, Kwenta, IndexCoop, Sturdy, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over $20B in cumulative trading volume.
 
 [Contact us](https://qtbwfilnd5m.typeform.com/to/h3fluMwF) to learn more about how Arrakis Pro can support your token launch and ongoing liquidity management.
 

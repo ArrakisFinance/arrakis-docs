@@ -20,7 +20,7 @@
 
 ## Modules
 
-`abstract/ModuleRegistry.sol` this abstract contract handles the simple duty of “module” whitelistsing, so only modules deemed safe and correct can be used by vaults.
+`abstracts/ModuleRegistry.sol` this abstract contract handles the simple duty of “module” whitelistsing, so only modules deemed safe and correct can be used by vaults.
 
 - `ModulePrivateRegistry.sol` registry of all modules which can be whitelisted and used by private vaults.
 
