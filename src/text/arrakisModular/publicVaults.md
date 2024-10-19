@@ -1,5 +1,7 @@
 # Public Vault List
 
+Just want to deposit? Here's our [New User Interface]()
+
 ## Ethereum Mainnet
 
 ### WETH/USDC Vault
@@ -33,8 +35,6 @@ HOT AMM pool WETH/USDC Config:
 - Max HOT Swaps Per Block: `3`
 - Max HOT Swap Oracle Deviation: `3.5%`
 
-Note On Quoter "HOT Dynamic Fee Oracle" Activity:
-
-For now, we are focused on the core RfQ mechanism of the HOT AMM and are taking a conservative pproach to permissionless swaps through the AMM. The AMM Swap Fee will quickly rise from `0.1%` to `2.5%` for swaps in both directions at a rate of `0.01%` per second.
+Read more about the [Quoter]() which helps power the HOT AMM.
 
 

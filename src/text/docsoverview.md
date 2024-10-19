@@ -1,19 +1,18 @@
-# About Arrakis Documentation
+# Intro
 
 Welcome to the Arrakis documentation.
 
-Whether you are a developer, liquidity provider, treasury manager, DeFi enjoyooor or an MEV enthusiast, we aim to make this reference guide useful and interesting.
+Arrakis is a MEV-aware market maker that powers onchain liquidity for token issuers and LPs. We're building the Arrakis Protocol to make onchain liquidity provision more scalable and efficient.
 
-The documentation is structured into three main sections:
+Jump straight to:
 
-- [Intro to Arrakis](./introduction/overview.md)
-- [Developer Docs](./arrakisModular/overview.md)
-- [Resources](./resources/overview.md)
+- [Developer Docs](../text/arrakisModular/overview.md)
+- [Resources](../text/resources/overview.md)
 
-[Intro to Arrakis](./introduction/overview.md) is a non-technical tl;dr of the problem we are solving, the Arrakis infrastructure, integrations and user-facing products.
+Or continue along with this Intro to Arrakis:
 
-[Developer Docs](./arrakisModular/overview.md) covers smart contract architecture, how to get started guides, an extensive technical reference and more. It also includes module integrations such as HOT AMM. It is aimed at developers interested in understanding the inner workings of Arrakis who are already familiar with Ethereum and the DeFi ecosystem.
-
-[Resources](./resources/overview.md) contains links to smart contract audits, our research and legacy documentation for Arrakis v1 & v2.
+- [Arrakis Infra](../text/introduction/arrakisInfra.md)
+- [HOT AMM](../text/introduction/integrations/hotAmm.md)
+- [Arrakis Pro](../text/introduction/arrakisPro.md)
 
 > _<center>The liquidity must flow.<center>_
