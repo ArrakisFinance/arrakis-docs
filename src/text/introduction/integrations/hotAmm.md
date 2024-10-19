@@ -2,11 +2,11 @@
 
 LPs are getting rekt by toxic order flow. HOT improves returns and maximizes capital efficiency for LPs, by internalizing MEV using an intent-based design.
 
-HOT is a first of its kind hybrid AMM design, that combines the permissionless properties of AMMs with the capital efficiency and competitive pricing of a permissioned RfQ system for that attracts intents based order flow from solvers on intents protocols like CoWSwap and UniswapX.
+HOT is a first of its kind hybrid AMM design, that combines the permissionless properties of AMMs with the capital efficiency and competitive pricing of a permissioned RfQ system that attracts intents-based orderflow from solvers on intents protocols like CoWSwap and UniswapX.
 
-HOT AMM is the first underlying DEX to be integrated into Arrakis Modular. [See Details]() of our flagship Public WETH/USDC vault on Ethereum Mainnet which deploys liquidity into HOT AMM.
+HOT AMM is the first underlying DEX to be integrated into Arrakis Modular. [See Details](../../arrakisModular/publicVaults.md) of our flagship Public WETH/USDC vault on Ethereum Mainnet which deploys liquidity into HOT AMM.
 
-Read the [Problem Statement]() that galvanizes the creation of HOT AMM
+Read the [Problem Statement](../../modules/hotAmm/problemStatement.md) that galvanizes the creation of HOT AMM
 
 Just want to deposit? Here's our [New User Interface]()
 
