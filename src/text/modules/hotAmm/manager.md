@@ -1,8 +1,10 @@
 # Manager Functions
 
+Note that ALL manager functions defined in Modules are subject to checks in the [ArrakisStandardManager](../../arrakisModular/technicalReference/metaVaults/core/contract.ArrakisStandardManager.md). Learn more about vault management and configurability [here](../../arrakisModular/architecture/configuration.md).
+
 ### Set Price Bounds
 
-Here the manager can change the concentration of the Arrakis vault liquidity position.
+This module exposes a function where the manager can change the concentration of the Arrakis vault liquidity position.
 
 ```solidity
     function setPriceBounds(
@@ -15,7 +17,7 @@ Here the manager can change the concentration of the Arrakis vault liquidity pos
 
 ### Swap
 
-Here the manager can swap to rebalance Arrakis vault liquidity against another onchain liquidity source (atomically).
+This module exposes a function where the manager can swap to rebalance Arrakis vault liquidity against another onchain liquidity source (atomically).
 
 ```solidity
     function swap(
