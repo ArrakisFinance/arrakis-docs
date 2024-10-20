@@ -1,15 +1,15 @@
 # Quickstart: Public Vaults
 
-To make the deposit process safe and simple we created the [Arrakis Public Vault Router](../../technicalReferecence/routers/interfaces.IArrakisPublicVaultRouter.md). This contract is in charge of getting the right amounts and tokens to deposit, as well as containing convenient functions with the ability to wrap assets and swap atomically before deposit. It also integrates the Permit 2 standard for gassless approvals.
+To make the deposit process safe and simple we created the [Arrakis Public Vault Router](../../text/arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md). This contract is in charge of getting the right amounts and tokens to deposit, as well as containing convenient functions with the ability to wrap assets and swap atomically before deposit. It also integrates the Permit 2 standard for gassless approvals.
 
 ### Add Liquidity
 
 The following provides a step-by-step explanation of depositing liquidity into an Arrakis Public Vault via the Router.
 
-1. Identify the Meta Vault associated to the pair you want to participate in. See for example [here](../../publicVaults.md) for a list of Public Vaults.
+1. Identify the Meta Vault associated to the pair you want to participate in. See for example [here](../arrakisModular/publicVaults.md) for a list of Public Vaults.
 
 2. Next step is use the Router to determine how many of each tokens you expect to need to join the Meta Vault.
-   - Use [`getMintAmounts`](../../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#getmintamounts) to determine the extact amounts of `token0` and `token1` you expect to deposit, given the maximum of each token you'd like to provide.
+   - Use [`getMintAmounts`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#getmintamounts) to determine the extact amounts of `token0` and `token1` you expect to deposit, given the maximum of each token you'd like to provide.
 
 3. In order to set token transfer authorizations before depositing, there are two alternatives:
    - Calling the standard ERC20 `Approve` (approve `<router>` to spend)
@@ -19,12 +19,12 @@ The following provides a step-by-step explanation of depositing liquidity into a
 
    - If you set up ERC20 approvals:
 
-     - Call [`addLiquidity`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#addliquidity) to deposit both tokens to the vault.
-     - If you have `ETH` and want to deposit into a pool with `WETH` as one of its tokens, you can also call [`wrapAndAddLiquidity`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandaddliquidity).
-     - If you want to synchronously perform a swap before adding liquidity you can call [`swapAndAddLiquidity`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#swapandaddliquidity) or [`wrapAndSwapAndAddLiquidity`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandswapandaddliquidity) (if you want to use send native `ETH` instead of `WETH` for a swap-and-deposit interaction)
+     - Call [`addLiquidity`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#addliquidity) to deposit both tokens to the vault.
+     - If you have `ETH` and want to deposit into a pool with `WETH` as one of its tokens, you can also call [`wrapAndAddLiquidity`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandaddliquidity).
+     - If you want to synchronously perform a swap before adding liquidity you can call [`swapAndAddLiquidity`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#swapandaddliquidity) or [`wrapAndSwapAndAddLiquidity`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandswapandaddliquidity) (if you want to use send native `ETH` instead of `WETH` for a swap-and-deposit interaction)
 
-   - If you have set the correct Permit2 data and signature you should respectively call [`addLiquidityPermit2`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#addliquiditypermit2),
-     [`wrapAndAddLiquidityPermit2`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandaddliquiditypermit2), [`swapAndAddLiquidityPermit2`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#swapandaddliquiditypermit2) or [`wrapAndSwapAndAddLiquidityPermit2`](../technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandswapandaddliquiditypermit2)
+   - If you have set the correct Permit2 data and signature you should respectively call [`addLiquidityPermit2`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#addliquiditypermit2),
+     [`wrapAndAddLiquidityPermit2`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandaddliquiditypermit2), [`swapAndAddLiquidityPermit2`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#swapandaddliquiditypermit2) or [`wrapAndSwapAndAddLiquidityPermit2`](../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md#wrapandswapandaddliquiditypermit2)
 
 5. Once your deposit transaction goes through, you obtain ERC20 LP `shares` of the vault you are depositing to.
 

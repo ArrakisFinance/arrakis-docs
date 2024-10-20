@@ -1,6 +1,6 @@
 # Public Vault List
 
-Just want to deposit? Here's our [New User Interface]()
+Just want to deposit? Here's our [New User Interface](https://app.arrakis.fi)
 
 ## Ethereum Mainnet
 

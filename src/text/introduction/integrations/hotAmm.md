@@ -2,30 +2,16 @@
 
 LPs are getting rekt by toxic order flow. HOT improves returns and maximizes capital efficiency for LPs, by internalizing MEV using an intent-based design.
 
-HOT is a first of its kind hybrid AMM design, that combines the permissionless properties of AMMs with the capital efficiency and competitive pricing of a permissioned RfQ system that attracts intents-based orderflow from solvers on intents protocols like CoWSwap and UniswapX.
-
-HOT AMM is the first underlying DEX to be integrated into Arrakis Modular. [See Details](../../arrakisModular/publicVaults.md) of our flagship Public WETH/USDC vault on Ethereum Mainnet which deploys liquidity into HOT AMM.
-
-Read the [Problem Statement](../../modules/hotAmm/problemStatement.md) that galvanizes the creation of HOT AMM
-
-Just want to deposit? Here's our [New User Interface]()
-
-## How HOT AMM works
+HOT is a first of its kind hybrid AMM design, that combines the permissionless properties of AMMs with the capital efficiency and competitive pricing of a offchain RfQ system that attracts intents-based orderflow from solvers on intents protocols like CoWSwap and UniswapX.
 
 HOT was designed by Arrakis and Valantis Labs. It is built on the [Valantis Modular DEX Framework](https://docs.valantis.xyz/). HOT is the first integration on Arrakis Modular and is powered by Arrakis's offchain market making infrastructure.
 
-HOT pools have two swap execution mechanisms:
+Just want to deposit? Here's our [New User Interface](https://app.arrakis.fi)
 
-### RfQ Quotes
+[See Details](../../arrakisModular/publicVaults.md#wethusdc-vault) of our flagship WETH/USDC public vault on Ethereum Mainnet which deploys liquidity into a HOT pool. This public vault offering combines a few advanced features under the hood: 
+- actively managed concentrated liquidity rebalancing (via the Arrakis Public Vault `manager` role)
+- intents-based Quoter activity (via the underlying HOT AMM `QuoteSigner` role)
 
-- Solvers compete for non-toxic uninformed order flow from intents protocols like CoW Swap, Uniswap X and 1inch Fusion.
-- Solvers ping an offchain api to get a quote from the HOT AMM [Quoter]() at a competitive and deterministic price.
-- Solvers Execute valid signed quotes directly against the AMM reserves to complete their swaps (at the price determined in the quote, regardless of AMM state)
-- Signed RfQ-quotes also attach trusted metatdata, when quotes execute this metadata is used to refresh AMM state and boost the performance of the permissionless AMM.
-
-### Permissionless AMM
-
-- Anyone can swap against the AMM which is akin to Uniswap v3. A dynamic swap fee mechanism is added to traditional concentrated liquidity.
-- The linearly increasing dynamic fee (up to a max) protects the pool against stale price arbitrage, in the event that an RfQ Quote hasn’t been issued onchain recently. Fees reset to a lower value at the time a RfQ signed quoted is executed onchain, restarting the process.
+Thanks to these roles (and proper strategies for their activity), LPs can passively make WETH/USDC markets in a way that is competitive with the most sophisticated Private Market Makers onchain.
 
 To learn more, refer to the complete [HOT AMM section](../../modules/hotAmm/overview.md).
