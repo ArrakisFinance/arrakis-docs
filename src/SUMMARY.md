@@ -30,6 +30,7 @@
       - [Core](text/arrakisModular/technicalReference/metaVaults/core/README.md)
         - [ArrakisMetaVault](text/arrakisModular/technicalReference/metaVaults/core/abstract.ArrakisMetaVault.md)
         - [ArrakisMetaVaultFactory](text/arrakisModular/technicalReference/metaVaults/core/contract.ArrakisMetaVaultFactory.md)
+        - [ArrakisStandardManager](text/arrakisModular/technicalReference/metaVaults/core/contract.ArrakisStandardManager.md)
       - [Public Vaults](text/arrakisModular/technicalReference/metaVaults/publicVaults/README.md)
         - [ArrakisMetaVaultPublic](text/arrakisModular/technicalReference/metaVaults/publicVaults/contract.ArrakisMetaVaultPublic.md)
         - [CreationCodePublicVault](text/arrakisModular/technicalReference/metaVaults/publicVaults/contract.CreationCodePublicVault.md)

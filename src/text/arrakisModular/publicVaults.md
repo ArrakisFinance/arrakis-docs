@@ -35,6 +35,6 @@ HOT AMM pool WETH/USDC Config:
 - Max HOT Swaps Per Block: `3`
 - Max HOT Swap Oracle Deviation: `3.5%`
 
-Read more about the [Quoter]() which helps power the HOT AMM.
+Read more about the [HOT AMM Quoter](../modules/hotAmm/quoter.md) and the [Vault Manager Functions](../modules/hotAmm/manager.md) which both perform actions that help power this Public Vault.
 
 
