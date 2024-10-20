@@ -161,10 +161,11 @@
 - [Modules](text/modules/overview.md)
 
   - [HOT AMM](text/modules/hotAmm/overview.md)
-
-    - [Problem Statement](text/modules/hotAmm/problemStatement.md)
-    - [Quickstart](text/modules/hotAmm/quickstart.md)
+    - [Concepts](text/modules/hotAmm/concepts.md)
+    - [Quickstart: Integrate](text/modules/hotAmm/quickstart.md)
+    - [Manager Functions](text/modules/hotAmm/manager.md)
     - [Quoter](text/modules/hotAmm/quoter.md)
+    - [LVR Problem](text/modules/hotAmm/problemStatement.md)
     - [Deployments](text/modules/hotAmm/deployments.md)
     - [Whitepaper](text/modules/hotAmm/whitepaper.md)
 

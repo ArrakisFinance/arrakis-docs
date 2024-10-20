@@ -8,8 +8,8 @@ For a complete overview on how to integrate HOT AMM, please refer to [Valantis S
 
 ### Permissionless AMM Users
 
-HOT AMM functions as a permissionless onchain liquidity pool very similar to the Uniswap V3 AMM (running in parallel to an offchain RfQ sytem, which is why we call it a "Hybrid" AMM). The two most important actions that can be taken on an AMM are:
+HOT AMM functions as a permissionless onchain liquidity pool very similar to Uniswap V3 pools.
 
-- [Provide Liquidity](../../../text/arrakisModular/quickstart.md) see this guide for interacting with HOT AMM as a liquidity provider.
+- [Provide Liquidity](../../../text/arrakisModular/quickstart.md): see this guide for interacting with HOT AMM as a liquidity provider.
 
-- [Swap](https://docs.valantis.xyz/hot/swap/amm-swap): For retail users and aggregators that desire to swap with low fees and up-to-date prices. These swaps happen against a single concentrated liquidity position, according to a UniswapV3 like constant-product AMM logic. For more details, we refer to the [Valantis Sovereign Pool documentation](https://docs.valantis.xyz/sovereign-pool-subpages/sovereign-pool-actions/swap-steps).
+- [Swap](https://docs.valantis.xyz/hot/swap/amm-swap): for retail users and aggregators that desire to swap with low fees and up-to-date prices. These swaps happen against a single concentrated liquidity position, according to a UniswapV3 like constant-product AMM logic. For more details, we refer to the [Valantis Sovereign Pool documentation](https://docs.valantis.xyz/sovereign-pool-subpages/sovereign-pool-actions/swap-steps).
