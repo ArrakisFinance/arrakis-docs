@@ -3,8 +3,8 @@
 # Overview
 
 - [Intro](text/docsoverview.md)
-- [Arrakis Infrastructure](text/introduction/arrakisInfra.md)
-- [Brand New HOT AMM](text/introduction/integrations/hotAmm.md)
+- [Arrakis Protocol](text/introduction/arrakisInfra.md)
+- [Brand New: HOT AMM](text/introduction/integrations/hotAmm.md)
 - [Arrakis Pro](text/introduction/arrakisPro.md)
 
 ---
@@ -64,7 +64,6 @@
 
     - [Admin and Security](text/arrakisModular/technicalReference/adminAndSec/README.md)
 
-      - [ArrakisStandardManager](text/arrakisModular/technicalReference/adminAndSec/contract.ArrakisStandardManager.md)
       - [Guardian](text/arrakisModular/technicalReference/adminAndSec/contract.Guardian.md)
       - [Pauser](text/arrakisModular/technicalReference/adminAndSec/contract.Pauser.md)
       - [TimeLock](text/arrakisModular/technicalReference/adminAndSec/contract.TimeLock.md)
@@ -164,9 +163,7 @@
   - [HOT AMM](text/modules/hotAmm/overview.md)
 
     - [Problem Statement](text/modules/hotAmm/problemStatement.md)
-    - [Quickstart](text/modules/hotAmm/quickstart/introduction.md)
-      - [Integrating as a Solver](text/modules/hotAmm/quickstart/solverIntegration.md)
-      - [Permissionless AMM](text/modules/hotAmm/quickstart/amm.md)
+    - [Quickstart](text/modules/hotAmm/quickstart.md)
     - [Quoter](text/modules/hotAmm/quoter.md)
     - [Deployments](text/modules/hotAmm/deployments.md)
     - [Whitepaper](text/modules/hotAmm/whitepaper.md)
