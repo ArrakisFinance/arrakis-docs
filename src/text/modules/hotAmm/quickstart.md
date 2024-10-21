@@ -2,9 +2,7 @@
 
 ### Solvers
 
-Are you a solver looking to integrate HOT AMM liquidity pools as a liquidity source?
-
-For a complete overview on how to integrate HOT AMM, please refer to [Valantis Solver Guide](https://docs.valantis.xyz/hot/solver-guide-subpages).
+Are you a solver looking to integrate HOT AMM liquidity pools as a liquidity source? Please refer to the [Valantis Solver Guide](https://docs.valantis.xyz/hot/solver-guide-subpages).
 
 ### Permissionless AMM Users
 
