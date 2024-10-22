@@ -1,20 +1,39 @@
 # Price Feeds
 
-To accelerate the integration of public and private Meta Vaults LP tokens into DeFi applications, we have partnered with [Redstone](https://redstone.finance/).
+All Arrakis Vaults have a concept of a `price oracle` set by vault owners on the [ArrakisStandardManager](./technicalReference/metaVaults/core/contract.ArrakisStandardManager.md). These price oracles are used as a third-party check on `executor` management calls to a vault.
+
+We use our own standard interface for oracle reads and thus we can seamlessly integrate any type of onchain oracle price feed no matter the interfaces/patterns (RedStone, Chainlink, Uni V3 TWAP, etc) -- just by defining a simple Oracle Wrapper smart contract.
+
+To accelerate the integration of safe public and private Meta Vaults for newer tokens that may not already have performant oracle feeds onchain, we refer clients to our oracle partner [Redstone](https://redstone.finance/).
 
 ## Methodology
 
-Redstone provides customizable and safe price feeds for hundreds of tokens, which allows us to provide custom price feeds for Meta Vaults LP tokens. Both Pull and Push models are supported. We can construct the price feed as follows
+Arrakis implements a standard oracle interface that must be followed:
 
-1. Let `price0` and `price1` be the respective prices of `token0` and `token1` in USD, obtained from Redstone. If an USD price feed is not available but an ETH price feed is, we say `price0 = price0ETH * priceETHUSD / decimals`, where `decimals` is the precision of the `ETH` price feed (typically 8). Same for `price1`
-2. Determine `reserve0` and `reserve1` of the two tokens in the vault by calling [`MetaVault::totalUnderlying()`](./technicalReference/metaVaults/core/abstract.ArrakisMetaVault.md#totalUnderlying)
-3. Get the amount of decimals of each token `decimals0` and `decimals1`
-4. Determine the total amount of `shares` of the vault by calling the standard ERC20 `MetaVault::totalSupply()`
-5. If both price feeds use 8 decimals, the price in USD of `10^18` shares of the vault, with 8 decimals, is then given by
+```solidity
+interface IOracleWrapper {
+    /// @notice function used to get price0.
+    /// @return price0 price of token0/token1.
+    function getPrice0() external view returns (uint256 price0);
 
+    /// @notice function used to get price1.
+    /// @return price1 price of token1/token0.
+    function getPrice1() external view returns (uint256 price1);
+}
 ```
-(reserve0 * price0 * 10 ** (18 - decimals0) +
-    reserve1 * price1 * 10 ** (18 - decimals1)) / shares
+
+Any smart contract that utilizes this interface can function as an oracle on the Arrakis standard manager. This interface is consumed during [ArrakisStandardManager.rebalance]() here:
+
+```solidity
+        uint256 price0 = info.oracle.getPrice0();
+
+        uint256 vaultInToken1BeforeRebalance = FullMath.mulDiv(
+            amount0, price0, 10 ** token0Decimals
+        ) + amount1;
 ```
 
-NOTE: If price feeds have different amount of decimals, small adjustments are needed.
+we store `vaultInToken1BeforeRebalance` and then compare it to the value after rebalance. Further checks can be implemented at the module level with oracle price feeds thanks to this call here:
+
+```solidity
+    module.validateRebalance(info.oracle, info.maxDeviation);
+```
