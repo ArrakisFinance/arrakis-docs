@@ -1,10 +1,10 @@
-# Price Feeds
+# Price Oracles
 
 All Arrakis Vaults have a concept of a `price oracle` set by vault owners on the [ArrakisStandardManager](./technicalReference/metaVaults/core/contract.ArrakisStandardManager.md). These price oracles are used as a third-party check on `executor` management calls to a vault.
 
 We use our own standard interface for oracle reads and thus we can seamlessly integrate any type of onchain oracle price feed no matter the interfaces/patterns (RedStone, Chainlink, Uni V3 TWAP, etc) -- just by defining a simple Oracle Wrapper smart contract.
 
-To accelerate the integration of safe public and private Meta Vaults for newer tokens that may not already have performant oracle feeds onchain, we refer clients to our oracle partner [Redstone](https://redstone.finance/).
+To accelerate the integration of safe public and private Meta Vaults for newer tokens that may not already have performant oracle feeds onchain, we refer clients to our oracle partner [RedStone](https://redstone.finance/).
 
 ## Methodology
 
@@ -22,7 +22,7 @@ interface IOracleWrapper {
 }
 ```
 
-Any smart contract that utilizes this interface can function as an oracle on the Arrakis standard manager. This interface is consumed during [ArrakisStandardManager.rebalance]() here:
+Any smart contract that utilizes this interface can function as an oracle on the Arrakis standard manager. This interface is consumed during [ArrakisStandardManager.rebalance](./technicalReference/metaVaults/core/contract.ArrakisStandardManager.md#rebalance) here:
 
 ```solidity
         uint256 price0 = info.oracle.getPrice0();

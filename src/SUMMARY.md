@@ -21,7 +21,7 @@
     - [Security](text/arrakisModular/architecture/security.md)
   - [Quickstart: Public Vaults](text/arrakisModular/quickstart.md)
   - [Public Vault List](text/arrakisModular/publicVaults.md)
-  - [Price Feeds](text/arrakisModular/priceFeeds.md)
+  - [Price Oracles](text/arrakisModular/priceOracles.md)
   - [Deployments](text/arrakisModular/deployments.md)
   - [Technical Reference](text/arrakisModular/technicalReference/overview.md)
 
