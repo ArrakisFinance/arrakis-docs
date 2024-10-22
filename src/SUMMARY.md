@@ -21,6 +21,7 @@
     - [Security](text/arrakisModular/architecture/security.md)
   - [Quickstart: Public Vaults](text/arrakisModular/quickstart.md)
   - [Public Vault List](text/arrakisModular/publicVaults.md)
+  - [Price Feeds](text/arrakisModular/priceFeeds.md)
   - [Deployments](text/arrakisModular/deployments.md)
   - [Technical Reference](text/arrakisModular/technicalReference/overview.md)
 
@@ -162,6 +163,7 @@
 - [Modules](text/modules/overview.md)
 
   - [HOT AMM](text/modules/hotAmm/overview.md)
+
     - [Concepts](text/modules/hotAmm/concepts.md)
     - [Quickstart: Integrate](text/modules/hotAmm/quickstart.md)
     - [Manager Functions](text/modules/hotAmm/manager.md)
