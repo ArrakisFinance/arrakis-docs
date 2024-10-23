@@ -1,6 +1,6 @@
 # Public Vault List
 
-Just want to deposit? Here's our [New User Interface](https://app.arrakis.fi)
+Just want to deposit? Here's our [New User Interface](https://app.arrakis.fi/modular)
 
 ## Ethereum Mainnet
 
@@ -26,7 +26,6 @@ Management Configuration:
 - Max Swap Slippage: `2%`
 - Manager Fee (on Swap Fees Earned): `1%`
 
-
 HOT AMM pool WETH/USDC Config:
 
 - QuoteSigner: `0x498c8a1a179b5D1D4Ff64bC90Cf3224a3478765C` (controlled by Arrakis)
@@ -36,5 +35,3 @@ HOT AMM pool WETH/USDC Config:
 - Max HOT Swap Oracle Deviation: `3.5%`
 
 Read more about the [HOT AMM Quoter](../modules/hotAmm/quoter.md) and the [Vault Manager Functions](../modules/hotAmm/manager.md) which both perform actions that help power this Public Vault.
-
-
