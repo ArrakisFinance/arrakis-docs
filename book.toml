@@ -13,5 +13,5 @@ additional-css = ["theme/css/img-color-scheme.css", "theme/css/custom-style.css"
 
 [output.html.fold]
 enable = true
-level = 1
+level = 0
 
