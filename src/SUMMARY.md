@@ -56,11 +56,14 @@
         - [ModulePublicRegistry](text/arrakisModular/technicalReference/modules/registry/contract.ModulePublicRegistry.md)
         - [ModulePrivateRegistry](text/arrakisModular/technicalReference/modules/registry/contract.ModulePrivateRegistry.md)
       - [Implementations](text/arrakisModular/technicalReference/modules/implementations/README.md)
+        - [UniswapV4StandardModule](text/arrakisModular/technicalReference/modules/implementations/abstract.UniV4StandardModule.md)]
+        - [AerodromeStandardModulePrivate](text/arrakisModular/technicalReference/modules/implementations/contract.AerodromeStandardModulePrivate.md)]
         - [ValantisModule](text/arrakisModular/technicalReference/modules/implementations/abstract.ValantisModule.md)
 
     - [Routers](text/arrakisModular/technicalReference/routers/README.md)
 
       - [ArrakisPublicVaultRouter](text/arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouter.md)
+      - [ArrakisPrivateVaultRouter](text/arrakisModular/technicalReference/routers/contract.ArrakisPrivateVaultRouter.md)
       - [RouterSwapExecutor](text/arrakisModular/technicalReference/routers/contract.RouterSwapExecutor.md)
       - [RouterSwapResolver](text/arrakisModular/technicalReference/routers/contract.RouterSwapResolver.md)
       - [Structs](text/arrakisModular/technicalReference/routers/structs/README.md)
