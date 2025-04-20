@@ -4,7 +4,7 @@
 
 Uniswap V2 simplicity and symmetric trading curve are ideal for price discovery during token launches. The absence of directional bias implies that trading activity orgaically determines the market price of a token. However, this requires adding liquidity in a 50/50 ratio, which is not practical for most treasuries.
 
-Our bootstrap strategy is designed to leverage the features of concentrated liquidity introduced in Uniswap V3 in order to manage very imbalanced liquidity ratios, for example 80% of a governace token GOV vs 20% of a quote token like ETH or USDC, that progressively converge to a 50/50 ratio. This is achieved by an assymetrical absortion of the volatility, that is, actively securing more of the quote token on buy spikes.
+Our bootstrap strategy is designed to leverage the features of concentrated liquidity introduced in Uniswap V3 in order to manage very imbalanced liquidity ratios, for example 80% of a governace token GOV vs 20% of a quote token like ETH or USDC. By asymmetrically absorbing volatility, it captures more of the quote token during buy spikes, progressively converging to a 50/50 token ratio.
 
 ## Implementation
 
