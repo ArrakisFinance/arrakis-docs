@@ -6,7 +6,7 @@ As Ethereum has grown, sophisticated actors have infiltrated DeFi using complex 
 
 We define CVMMs as sophisticated centralised actors who simultaneously participate in block building, MEV extraction, private order flow and most recently, capturing volumes via private market makers (PMMs). In other words, trading firms like Wintermute.
 
-CVMMs extract the majority of profits from onchain liquidity, leaving protocols and liquidity providers to fight for toxic order flow. As of Oct 2024, Token Issuers, Retail DeFi, and other LPs have leaked $800M in MEV to poorly designed AMMs since the merge (Oct 2022).
+CVMMs extract the majority of profits from onchain liquidity, leaving protocols and liquidity providers to fight for toxic order flow. As of Oct 2024, Token Issuers, Retail DeFi, and other LPs have leaked \$800M in MEV to poorly designed AMMs since the merge (Oct 2022).
 
 Before Intent protocols like UniswapX, CoWSwap and 1inch Fusion emerged, CVMMs primarily focused on extracting value from passive LPs and onchain traders by channeling MEV and arbitrage strategies through their own block builders.
 

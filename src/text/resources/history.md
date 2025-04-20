@@ -6,9 +6,9 @@ Arrakis Finance started in early 2021, shortly after the Uniswap v3 whitepaper w
 
 These substantial efficiency improvements over older constant product AMMs unfortunately came at the cost of Liquidity Providers (LPs) facing substantial complexity and overhead associated with trying to fully leverage the potential of providing liquidity in a concentrated fashion on Uniswap V3.
 
-The project, first being part of Gelato Network, later spun out into an independant project after receiving substantial organic traction and going on to have $1.8B TVL.
+The project, first being part of Gelato Network, later spun out into an independant project after receiving substantial organic traction and going on to have \$1.8B TVL.
 
-Arrakis has gone on to facilitate $20B in volume traded.
+Arrakis has gone on to facilitate \$20B in volume traded.
 
 Since mid 2023, Arrakis has been focussed on the next generation of AMMs and MEV recapture to tackle the biggest threat Ethereum faces: extractive centralised actors.
 

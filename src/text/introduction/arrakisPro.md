@@ -29,6 +29,6 @@ Arrakis Pro was formerly known as PALM (built on top of Uniswap v3). With Arraki
 
 ## Get in Touch
 
-Arrakis is trusted by MakerDAO, Lido, EtherFi, Across, Stargate, Gnosis, Redstone, Euler, Redacted Cartel, Angle, Mountain, Kwenta, IndexCoop, Sturdy, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over $20B in cumulative trading volume.
+Arrakis is trusted by MakerDAO, Lido, EtherFi, Across, Stargate, Gnosis, Redstone, Euler, Redacted Cartel, Angle, Mountain, Kwenta, IndexCoop, Sturdy, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over \$20B in cumulative trading volume.
 
 [Contact us](https://qxqhpatmzz7.typeform.com/to/IZdNgmmM?typeform-source=arrakis.finance) to learn more about how Arrakis Pro can support your token launch and ongoing liquidity management.
