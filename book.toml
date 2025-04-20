@@ -15,3 +15,6 @@ additional-css = ["theme/css/img-color-scheme.css", "theme/css/custom-style.css"
 enable = true
 level = 0
 
+[preprocessor.katex]
+after = ["links"]
+
