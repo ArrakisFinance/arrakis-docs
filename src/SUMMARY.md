@@ -9,6 +9,7 @@
 ---
 # Arrakis Pro
 - [Intro](text/arrakisPro/intro.md)
+- [Integrations](text/integrations/overview.md)
 - [Strategies](text/arrakisPro/strategies/overview.md)
   - [Bootstrap](text/arrakisPro/strategies/bootstrap.md)
   - [Flagship](text/arrakisPro/strategies/flagship.md)

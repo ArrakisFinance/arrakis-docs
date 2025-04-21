@@ -7,11 +7,11 @@ Arrakis is a MEV-aware market maker that powers onchain liquidity for token issu
 Read this Intro to Arrakis for a high-level overview:
 
 - [Arrakis Protocol](../text/introduction/arrakisInfra.md)
-- [Brand New: HOT AMM](../text/introduction/integrations/hotAmm.md)
 - [Arrakis Pro](../text/introduction/arrakisPro.md)
 
 Or jump straight into:
 
+- [Arrakis Pro](../text/arrakisPro/intro.md)
 - [Developer Docs](../text/arrakisModular/overview.md)
 - [Resources](../text/resources/overview.md)
 

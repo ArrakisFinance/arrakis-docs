@@ -11,8 +11,8 @@ Our smart contract framework for DEX integrations (Arrakis Modular) works togeth
 <img src="../../../img/arrakis-infra-overview.svg" alt="arrakis-modular" width="500" class="img-svg"/>
 </p>
 
-For example, the new [HOT AMM Public Vault](../arrakisModular/publicVaults.md) is formed by the following components:
+For example, Arrakis Pro on [Uniswap V4](../modules/uniV4Module/overview.md) is formed by the following components:
 
-- Arrakis Quoter and other offchain market making components.
-- Arrakis Modular (smart contract framework) Public Vaults.
-- A new custom Valantis Sovereign Pool (as the 1st DEX integration).
+- Arrakis Quoter and other offchain market making components to determine dynamic fees.
+- Arrakis Modular (smart contract framework) Private Vaults.
+- A new custom Arrakis Uniswap V4 Hook to give private access to a given pool as well setting dynamic fees which are respnsive to market conditions.
