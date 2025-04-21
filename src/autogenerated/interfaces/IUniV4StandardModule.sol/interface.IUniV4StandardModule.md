@@ -1,5 +1,5 @@
 # IUniV4StandardModule
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/interfaces/IUniV4StandardModule.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IUniV4StandardModule.sol)
 
 
 ## Functions

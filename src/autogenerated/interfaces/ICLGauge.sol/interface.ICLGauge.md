@@ -1,5 +1,5 @@
 # ICLGauge
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/interfaces/ICLGauge.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/ICLGauge.sol)
 
 
 ## Functions

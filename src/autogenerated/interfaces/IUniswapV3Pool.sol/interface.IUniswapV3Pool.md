@@ -1,5 +1,5 @@
 # IUniswapV3Pool
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/interfaces/IUniswapV3Pool.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IUniswapV3Pool.sol)
 
 
 ## Functions

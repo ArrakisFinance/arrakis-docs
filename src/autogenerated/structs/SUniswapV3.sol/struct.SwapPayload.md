@@ -1,5 +1,5 @@
 # SwapPayload
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/structs/SUniswapV3.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/structs/SUniswapV3.sol)
 
 
 ```solidity

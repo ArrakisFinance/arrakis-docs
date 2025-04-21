@@ -1,5 +1,5 @@
 # IVoter
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/interfaces/IVoter.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IVoter.sol)
 
 
 ## Functions

@@ -1,5 +1,5 @@
 # IWithdrawHelper
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/interfaces/IWithdrawHelper.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IWithdrawHelper.sol)
 
 
 ## Functions

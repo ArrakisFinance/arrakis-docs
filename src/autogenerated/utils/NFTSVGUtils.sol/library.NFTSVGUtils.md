@@ -1,5 +1,5 @@
 # NFTSVGUtils
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/utils/NFTSVGUtils.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/utils/NFTSVGUtils.sol)
 
 
 ## State Variables

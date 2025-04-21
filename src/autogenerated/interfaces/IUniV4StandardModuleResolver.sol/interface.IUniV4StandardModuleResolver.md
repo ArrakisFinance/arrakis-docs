@@ -1,5 +1,5 @@
 # IUniV4StandardModuleResolver
-[Git Source](https://github.com/ArrakisFinance/arrakis-modular/arrakis-modular/blob/main/src/interfaces/IUniV4StandardModuleResolver.sol)
+[Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IUniV4StandardModuleResolver.sol)
 
 
 ## Functions
