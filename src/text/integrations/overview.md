@@ -4,13 +4,13 @@ Arrakis is focused on being a decentralized **onchain market making** solution, 
 
 Here you can find more information on the integrations available on Arrakis Modular:
 
-1. [Uniswap v4]():
+1. [Uniswap v4](./uniswapv4.md):
 
-2. [Aerodrome]():
+2. [Aerodrome](./aerodrome.md):
 
-2. [Velodrome](): Coming soon...
+2. [Velodrome](./aerodrome.md): Coming soon...
 
-2. [Pancakeswap v4](): Coming soon...
+2. [Pancakeswap v4](./pancakeswapv4.md): Coming soon...
 
 ## More on Arrakis Modular
 

@@ -10,11 +10,15 @@
 # Arrakis Pro
 - [Intro](text/arrakisPro/intro.md)
 - [Integrations](text/integrations/overview.md)
+  - [Uniswap v4](text/integrations/uniswapv4.md)
+  - [Aerodrome](text/integrations/aerodrome.md)
+  - [Velodrome](text/integrations/velodrome.md)
+  - [Pancakeswap v4](text/integrations/pancakeswapv4.md)
 - [Strategies](text/arrakisPro/strategies/overview.md)
   - [Bootstrap](text/arrakisPro/strategies/bootstrap.md)
   - [Flagship](text/arrakisPro/strategies/flagship.md)
 - [Migration](text/arrakisPro/migration/overview.md)
-  - [PALM to ArrakisPro](text/arrakisPro/migration/palm.md)
+  - [PALM to Arrakis Pro](text/arrakisPro/migration/palm.md)
 
 ---
 # Developer Docs
