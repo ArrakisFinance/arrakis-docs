@@ -9,6 +9,7 @@
 ---
 # Arrakis Pro
 - [Intro](text/arrakisPro/intro.md)
+- [Setup](text/arrakisPro/setup.md)
 - [Integrations](text/integrations/overview.md)
   - [Uniswap v4](text/integrations/uniswapv4.md)
   - [Aerodrome](text/integrations/aerodrome.md)

@@ -1,16 +1,18 @@
 # Integrations
 
-Arrakis is focused on being a decentralized **onchain market making** solution, with a key feature of built-in MEV-Awareness / vertical integration into the MEV supply chain. Arrakis aims to give all token markets a seamless _next-generation onchain spot market liquidity provision experience_.
-
-Here you can find more information on the integrations available on Arrakis Modular:
+One key feature of Arrakis Modular is the ability to switch between **modules**, where each module defines the vault's integration with a liquidity consuming dApp. For Arrakis Pro there are currently four potential **modules**:
 
 1. [Uniswap v4](./uniswapv4.md):
 
 2. [Aerodrome](./aerodrome.md):
 
-2. [Velodrome](./aerodrome.md): Coming soon...
+2. [Velodrome](./aerodrome.md):
 
 2. [Pancakeswap v4](./pancakeswapv4.md): Coming soon...
+
+## How to whitelist a new module
+
+From `vault.owner()` acct -> call [whitelistModules](../../../text/arrakisModular/technicalReference/metaVaults/core/abstract.ArrakisMetaVault.html#whitelistmodules) on your vault contract. Since the correct input params could be complex you may want to consult Arrakis engineers.
 
 ## More on Arrakis Modular
 

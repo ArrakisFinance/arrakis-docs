@@ -2,6 +2,8 @@
 
 Arrakis Pro is the industry leading, non-custodial onchain liquidity management solution for token issuers (protocols and DAOs). Arrakis Pro powers protocol owned liquidity.
 
+See [Arrakis Pro Docs](../../text/arrakisPro/intro.md)
+
 ## Problem Statement
 
 Uniswap v3 introduced the concept of concentrated liquidity AMM pools which enabled high capital efficiency, but were complex to manage.
