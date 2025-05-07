@@ -6,6 +6,8 @@ Uniswap V2 simplicity and symmetric trading curve are ideal for price discovery 
 
 Our bootstrap strategy is designed to leverage the features of concentrated liquidity introduced in Uniswap V3 in order to manage very imbalanced liquidity ratios, for example 80% of a governace token GOV vs 20% of a quote token like ETH or USDC. By asymmetrically absorbing volatility, it captures more of the quote token during buy spikes, progressively converging to a 50/50 token ratio.
 
+From now on we consider an ETH/GOV token pair as an example to describe the strategy implementation.
+
 ## Implementation
 
 The bootstrap strategy defines a liquidity distribution composed by several ranges

@@ -4,7 +4,7 @@
 
 For now simply [contact us](https://qxqhpatmzz7.typeform.com/to/IZdNgmmM?typeform-source=arrakis.finance) to have an Arrakis engineer deploy and configure an Arrakis Pro vault on your behalf. (If you _really_ want to deploy by yourself see sample [deploy script here](https://github.com/ArrakisFinance/arrakis-modular/tree/main/script/deployV4PrivateVault.s.sol))
 
-At deployment you choose what initial **module** your vault uses. See [integrations](../../text/arrakisPro/integrations/overview.md) section for more info.
+At deployment you choose what initial **module** your vault uses. See [integrations](./integrations.md) section for more info.
 
 ## Deposit
 

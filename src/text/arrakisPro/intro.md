@@ -14,4 +14,6 @@ _Arrakis Pro Vaults_ are a subset of _Private Vaults_ configured to use Arrakis'
     <img src="../../../img/private-vault-nft.svg" alt="nft" width="300"/>
 </p>
 
-**WARNING: IF YOU TRANSFER A PRIVATE VAULT NFT YOU ALSO TRANSFER THE RIGHT TO WITHDRAW THE UNDERLYING FUNDS** (exactly like Uni V3 NFTs)
+<div class="warning">
+<b>WARNING: IF YOU TRANSFER A PRIVATE VAULT NFT YOU ALSO TRANSFER THE RIGHT TO WITHDRAW THE UNDERLYING FUNDS</b> (exactly like Uni V3 NFTs)
+</div>
