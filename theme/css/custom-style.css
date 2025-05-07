@@ -4,20 +4,20 @@ h3 {
 }
 
 .logo-container {
-  top: 0;
   display: flex;
   justify-content: center;
-  padding-top: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: var(--sidebar-bg);
 }
 img#logo {
   width: 150px;
 }
 
-.sidebar-scrollbox {
+.sidebar .sidebar-scrollbox {
+  margin-top: 56px;
   margin-left: 10px;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
+  padding: 0px 10px 10px 10px;
 }
 
 .rust {

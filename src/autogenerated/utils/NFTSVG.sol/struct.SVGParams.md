@@ -1,8 +1,8 @@
 # SVGParams
-
 [Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/utils/NFTSVG.sol)
 
 Parameters for generating the URI
+
 
 ```solidity
 struct SVGParams {
@@ -15,3 +15,4 @@ struct SVGParams {
     string symbol1;
 }
 ```
+
