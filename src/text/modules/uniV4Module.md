@@ -2,6 +2,8 @@
 
 Arrakis Private Vault module integration with Uniswap V4.
 
+Vault Type(s): Private Vault
+
 Features:
 
 - manage multiple V4 liquidity positions in a aggregated/batched way with nice interfaces
