@@ -10,16 +10,12 @@
 # Arrakis Pro
 - [Intro](text/arrakisPro/intro.md)
 - [Setup](text/arrakisPro/setup.md)
-- [Integrations](text/integrations/overview.md)
-  - [Uniswap v4](text/integrations/uniswapv4.md)
-  - [Aerodrome](text/integrations/aerodrome.md)
-  - [Velodrome](text/integrations/velodrome.md)
-  - [Pancakeswap v4](text/integrations/pancakeswapv4.md)
+- [Maintenance](text/arrakisPro/modify.md)
+- [Integrations](text/arrakisPro/integrations.md)
 - [Strategies](text/arrakisPro/strategies/overview.md)
   - [Bootstrap](text/arrakisPro/strategies/bootstrap.md)
   - [Flagship](text/arrakisPro/strategies/flagship.md)
-- [Migration](text/arrakisPro/migration/overview.md)
-  - [PALM to Arrakis Pro](text/arrakisPro/migration/palm.md)
+- [Migration](text/arrakisPro/migration.md)
 
 ---
 # Developer Docs
@@ -32,9 +28,7 @@
     - [Configuration](text/arrakisModular/architecture/configuration.md)
     - [Diagram](text/arrakisModular/architecture/diagram.md)
     - [Security](text/arrakisModular/architecture/security.md)
-  - [Quickstart: Public Vaults](text/arrakisModular/quickstartPublic.md)
   - [Quickstart: Private Vaults](text/arrakisModular/quickstartPrivate.md)
-  - [Public Vault List](text/arrakisModular/publicVaults.md)
   - [Price Oracles](text/arrakisModular/priceOracles.md)
   - [Deployments](text/arrakisModular/deployments.md)
   - [Technical Reference](text/arrakisModular/technicalReference/overview.md)
@@ -62,9 +56,13 @@
         - [ModulePublicRegistry](text/arrakisModular/technicalReference/modules/registry/contract.ModulePublicRegistry.md)
         - [ModulePrivateRegistry](text/arrakisModular/technicalReference/modules/registry/contract.ModulePrivateRegistry.md)
       - [Implementations](text/arrakisModular/technicalReference/modules/implementations/README.md)
-        - [UniswapV4StandardModule](text/arrakisModular/technicalReference/modules/implementations/abstract.UniV4StandardModule.md)]
+        - [UniswapV4StandardModule (abstract)](text/arrakisModular/technicalReference/modules/implementations/abstract.UniV4StandardModule.md)]
+        - [PancakeSwapV4StandardModule (abstract)](text/arrakisModular/technicalReference/modules/implementations/abstract.PancakeSwapV4StandardModule.md)
+        - [ValantisHOTModule (abstract)](text/arrakisModular/technicalReference/modules/implementations/abstract.ValantisModule.md)
         - [AerodromeStandardModulePrivate](text/arrakisModular/technicalReference/modules/implementations/contract.AerodromeStandardModulePrivate.md)]
-        - [ValantisModule](text/arrakisModular/technicalReference/modules/implementations/abstract.ValantisModule.md)
+        - [UniswapV4StandardModulePrivate](text/arrakisModular/technicalReference/modules/implementations/contract.UniV4StandardModulePrivate.md)
+        - [PancakeSwapV4StandardModulePrivate](text/arrakisModular/technicalReference/modules/implementations/contract.PancakeSwapV4StandardModulePrivate.md)
+        - [ValantisHOTModulePublic](text/arrakisModular/technicalReference/modules/implementations/contract.ValantisModulePrivate.md)
 
     - [Routers](text/arrakisModular/technicalReference/routers/README.md)
 
@@ -242,13 +240,11 @@
 
 - [Modules](text/modules/overview.md)
 
-  - [Uniswap v4 Module](text/modules/uniV4Module/overview.md)
-    - [Concepts](text/modules/uniV4Module/concepts.md)
-    - [Deployments](text/modules/uniV4Module/deployments.md)
-  - [Aerodrome Module](text/modules/aerodromeModule/overview.md)
-    - [Concepts](text/modules/aerodromeModule/concepts.md)
-    - [Deployments](text/modules/aerodromeModule/deployments.md)
-  - [Velodrome Module](text/modules/velodromeModule/overview.md)
+  - [Uniswap v4 Module](text/modules/uniV4Module.md)
+  - [Aerodrome Module](text/modules/aerodromeModule.md)
+  - [Velodrome Module](text/modules/veldoromeModule.md)
+  - [PancakeSwapV4 Module](text/modules/pancakeModule.md)
+  - [Valantis HOT Module](text/modules/valantisModule.md)
  
 
 ---
@@ -267,4 +263,5 @@
     - [LVR Problem](text/modules/hotAmm/problemStatement.md)
     - [Deployments](text/modules/hotAmm/deployments.md)
     - [Whitepaper](text/modules/hotAmm/whitepaper.md)
+    - [Public Vault List](text/modules/hotAmm/publicVaults.md)
 - [History](text/resources/history.md)
