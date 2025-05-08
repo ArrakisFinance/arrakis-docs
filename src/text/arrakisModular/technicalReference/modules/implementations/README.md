@@ -12,4 +12,4 @@
 - [Aerodrome Standard Module Private](contract.AerodromeStandardModulePrivate.md)
 - [Uniswap V4 Standard Module Private](contract.UniV4StandardModulePrivate.md)
 - [PancakeSwap Infinity Standard Module Private](contract.PancakeSwapV4StandardModulePrivate.md)
-- [Valantis HOT Module Public](contract.ValantisModulePrivate.md)
+- [Valantis HOT Module Public](contract.ValantisModulePublic.md)
