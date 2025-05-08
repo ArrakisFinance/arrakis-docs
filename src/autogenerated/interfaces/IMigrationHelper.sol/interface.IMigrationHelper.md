@@ -1,7 +1,6 @@
 # IMigrationHelper
 [Git Source](https://github.com/ArrakisFinance/arrakis-modular/blob/main/src/interfaces/IMigrationHelper.sol)
 
-
 ## Functions
 ### migrateVault
 
@@ -170,6 +169,14 @@ Error emitted when disable module fails.
 error UnableModuleErr();
 ```
 
+### PayloadOutdated
+Error emitted when the new uni V4 pool creation with an outdated price.
+
+
+```solidity
+error PayloadOutdated();
+```
+
 ## Structs
 ### InternalStruct
 
@@ -243,6 +250,7 @@ struct Migration {
     VaultCreation vaultCreation;
     bytes[] rebalancePayloads;
     address executor;
+    uint256 timestampLimit;
 }
 ```
 
