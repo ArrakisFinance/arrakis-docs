@@ -4,7 +4,8 @@ steps:
     args:
       - "-c"
       - |
-        cargo install mdbook mdbook-katex
+        /usr/local/cargo/bin/cargo install mdbook mdbook-katex
+        export PATH="/root/.cargo/bin:$PATH"
         mdbook build
     id: BuildDocs
     entrypoint: bash
