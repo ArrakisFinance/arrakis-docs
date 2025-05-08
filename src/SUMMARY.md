@@ -242,7 +242,7 @@
   - [Uniswap v4 Module](text/modules/uniV4Module.md)
   - [Aerodrome Module](text/modules/aerodromeModule.md)
   - [Velodrome Module](text/modules/velodromeModule.md)
-  - [PancakeSwapV4 Module](text/modules/pancakeModule.md)
+  - [PancakeSwap Infinity Module](text/modules/pancakeModule.md)
   - [Valantis HOT Module](text/modules/valantisModule.md)
  
 
