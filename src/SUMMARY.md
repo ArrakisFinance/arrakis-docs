@@ -28,7 +28,6 @@
     - [Configuration](text/arrakisModular/architecture/configuration.md)
     - [Diagram](text/arrakisModular/architecture/diagram.md)
     - [Security](text/arrakisModular/architecture/security.md)
-  - [Quickstart: Private Vaults](text/arrakisModular/quickstartPrivate.md)
   - [Price Oracles](text/arrakisModular/priceOracles.md)
   - [Deployments](text/arrakisModular/deployments.md)
   - [Technical Reference](text/arrakisModular/technicalReference/overview.md)
