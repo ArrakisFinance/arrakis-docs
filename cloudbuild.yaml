@@ -1,11 +1,10 @@
 steps:
   # Step 1: Build the docs
-  - name: rust:1.81
+  - name: rust:1.76
     args:
       - "-c"
       - |
-        /usr/local/cargo/bin/cargo install mdbook mdbook-katex
-        export PATH="/root/.cargo/bin:$PATH"
+        cargo install mdbook --version 0.4.43 --locked
         mdbook build
     id: BuildDocs
     entrypoint: bash

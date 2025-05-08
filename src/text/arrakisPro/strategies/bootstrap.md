@@ -24,7 +24,7 @@ These ranges are depicted in the image below, where we consider a quote token ET
    <img src="../../../img/bootstrap_1.svg" alt="nft" width="600" class="img-svg"/>
 </p>
 
-This strategy sets target prices used as a rebalance trigger. The target price on the GOV token side is set to quickly capture some of the ETH sold to the pool (called $P^*$ in the figure below).
+This strategy sets target prices used as a rebalance trigger. The target price on the GOV token side is set to quickly capture some of the ETH sold to the pool (called P\* in the figure below).
 
 <p align="center">
    <img src="../../../img/bootstrap_2.svg" alt="nft" width="600" class="img-svg"/>
