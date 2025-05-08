@@ -1,6 +1,6 @@
 steps:
   # Step 1: Build the docs
-  - name: rust:1.76
+  - name: rust:1.86
     args:
       - "-c"
       - |
