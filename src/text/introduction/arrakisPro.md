@@ -1,6 +1,6 @@
 # Arrakis Pro
 
-Arrakis Pro is the industry leading, non-custodial onchain liquidity management solution for token issuers (protocols and DAOs). Arrakis Pro powers protocol owned liquidity.
+Arrakis Pro is the industry leading, non-custodial onchain liquidity management solution for token issuers (companies, foundations, protocols and DAOs). Arrakis Pro powers treasury-owned liquidity.
 
 See [Arrakis Pro Docs](../../text/arrakisPro/intro.md)
 
@@ -16,7 +16,7 @@ Arrakis Pro supports token issuers by:
 
 ## Benefits
 
-Protocols and DAOs can benefit from the following:
+Token issuers can benefit from the following:
 
 1. **Greater capital efficiency**: narrow price range with rebalancing to keep the price in the range.
 2. **Minimum price impact**: increased liquidity depth leading to reduced downside price impact and market volatility.
@@ -25,12 +25,12 @@ Protocols and DAOs can benefit from the following:
 
 ## Solution
 
-Arrakis Pro simplifies the process of managing concentrated liquidity by automating liquidity provisioning and rebalancing, for any concentrated liquidity pool (including Uniswap v3, Uniswap v4 and Aerodrome). Arrakis Pro is powered by Arrakis's Offchain Market Making infrastructure.
+Arrakis Pro simplifies the process of managing concentrated liquidity by automating liquidity provisioning and rebalancing, for any concentrated liquidity pool (including Uniswap v4, Aerodrome and PancakeSwap Infinity). Arrakis Pro is powered by Arrakis's Offchain Market Making infrastructure.
 
 Arrakis Pro was formerly known as PALM (built on top of Uniswap v3). With Arrakis Modular — the new and improved version of the Arrakis vaults — any DEX can be supported.
 
 ## Get in Touch
 
-Arrakis is trusted by MakerDAO, Lido, EtherFi, Across, Stargate, Gnosis, Redstone, Euler, Redacted Cartel, Angle, Mountain, Kwenta, IndexCoop, Sturdy, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over \$20B in cumulative trading volume.
+Arrakis is trusted by MakerDAO, Lido, EtherFi, Bitpanda, Maple, Morpho, Across, Stargate, Gnosis, Redstone, Euler, Redacted Cartel, Angle, Mountain, Kwenta, IndexCoop, Everclear and many more leading protocols. As of October 2024, Arrakis vaults have facilitated over \$20B in cumulative trading volume.
 
 [Contact us](https://qxqhpatmzz7.typeform.com/to/IZdNgmmM?typeform-source=arrakis.finance) to learn more about how Arrakis Pro can support your token launch and ongoing liquidity management.
