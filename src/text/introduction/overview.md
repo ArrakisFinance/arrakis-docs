@@ -1,6 +1,6 @@
 # Introduction
 
-Arrakis is a MEV-aware market maker that powers onchain liquidity for token issuers and LPs.
+Arrakis is a market maker that powers onchain liquidity for token issuers and LPs.
 
 If you actively participate in or spend time thinking about deploying and managing DEX liquidity onchain, then we make tools and products for you.
 
