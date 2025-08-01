@@ -14,7 +14,8 @@ Arrakis smart contracts have been audited by world class security firms. You can
 <img src="../../../img/sherlock.svg" alt="Sherlock" height="20" class="img-svg"/>
 </p>
 
-- [Arrakis Modular Collaborative Audit Report](https://github.com/ArrakisFinance/arrakis-modular/blob/main/audit/2025.03.14%20-%20Final%20-%20Arrakis%20Collaborative%20Audit%20Report%201741963117.pdf)
+- [Arrakis Public Vaults and Uniswap V4 Public Modules Audit Report](https://github.com/ArrakisFinance/arrakis-modular/blob/main/audit/2025_07_21_Final_Arrakis_Collaborative_Audit_Report_1753099802.pdf)
+- [Arrakis Modular Migration and Withdraw Helper Collaborative Audit Report](https://github.com/ArrakisFinance/arrakis-modular/blob/main/audit/2025.03.14%20-%20Final%20-%20Arrakis%20Collaborative%20Audit%20Report%201741963117.pdf)
 - [Arrakis-Valantis HOT Audit Report](https://github.com/ArrakisFinance/arrakis-modular/blob/main/audit/Arrakis_Valantis_SOT_Audit_Audit_Report.pdf)
 
 <p align="left" style="margin-top:40px;">
