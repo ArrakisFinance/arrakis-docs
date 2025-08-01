@@ -38,7 +38,9 @@ constructor(address router_, address nativeToken_);
 function used to swap tokens.
 
 ```solidity
-function swap(SwapAndAddData memory params_)
+function swap(
+    SwapAndAddData memory params_
+)
     external
     payable
     onlyRouter

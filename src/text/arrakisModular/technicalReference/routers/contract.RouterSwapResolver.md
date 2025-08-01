@@ -18,7 +18,9 @@ IArrakisPublicVaultRouter public immutable router;
 ### constructor
 
 ```solidity
-constructor(address router_);
+constructor(
+    address router_
+);
 ```
 
 ### calculateSwapAmount
@@ -35,8 +37,7 @@ function calculateSwapAmount(
 ### \_getUnderlyingOrLiquidity
 
 ```solidity
-function _getUnderlyingOrLiquidity(IArrakisMetaVault vault_)
-    internal
-    view
-    returns (uint256 gross0, uint256 gross1);
+function _getUnderlyingOrLiquidity(
+    IArrakisMetaVault vault_
+) internal view returns (uint256 gross0, uint256 gross1);
 ```

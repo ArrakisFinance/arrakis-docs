@@ -134,9 +134,9 @@ function addLiquidity(
 
 **Parameters**
 
-| Name      | Type               | Description                                                  |
-| --------- | ------------------ | ------------------------------------------------------------ |
-| `params_` | `AddLiquidityData` | AddLiquidityData struct containing data for adding liquidity |
+| Name      | Type                                                       | Description                                                  |
+| --------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| `params_` | [`AddLiquidityData`](./structs/struct.AddLiquidityData.md) | AddLiquidityData struct containing data for adding liquidity |
 
 **Returns**
 
@@ -170,9 +170,9 @@ function swapAndAddLiquidity(
 
 **Parameters**
 
-| Name      | Type             | Description                                    |
-| --------- | ---------------- | ---------------------------------------------- |
-| `params_` | `SwapAndAddData` | SwapAndAddData struct containing data for swap |
+| Name      | Type                                                   | Description                                    |
+| --------- | ------------------------------------------------------ | ---------------------------------------------- |
+| `params_` | [`SwapAndAddData`](./structs/struct.SwapAndAddData.md) | SwapAndAddData struct containing data for swap |
 
 **Returns**
 
@@ -201,9 +201,9 @@ function removeLiquidity(
 
 **Parameters**
 
-| Name      | Type                  | Description                                                |
-| --------- | --------------------- | ---------------------------------------------------------- |
-| `params_` | `RemoveLiquidityData` | RemoveLiquidityData struct containing data for withdrawals |
+| Name      | Type                                                             | Description                                                |
+| --------- | ---------------------------------------------------------------- | ---------------------------------------------------------- |
+| `params_` | [`RemoveLiquidityData`](./structs/struct.RemoveLiquidityData.md) | RemoveLiquidityData struct containing data for withdrawals |
 
 **Returns**
 
@@ -230,9 +230,9 @@ function addLiquidityPermit2(
 
 **Parameters**
 
-| Name      | Type                      | Description                                                         |
-| --------- | ------------------------- | ------------------------------------------------------------------- |
-| `params_` | `AddLiquidityPermit2Data` | AddLiquidityPermit2Data struct containing data for adding liquidity |
+| Name      | Type                                                                     | Description                                                         |
+| --------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| `params_` | [`AddLiquidityPermit2Data`](./structs/struct.AddLiquidityPermit2Data.md) | AddLiquidityPermit2Data struct containing data for adding liquidity |
 
 **Returns**
 
@@ -266,9 +266,9 @@ function swapAndAddLiquidityPermit2(
 
 **Parameters**
 
-| Name      | Type                    | Description                                           |
-| --------- | ----------------------- | ----------------------------------------------------- |
-| `params_` | `SwapAndAddPermit2Data` | SwapAndAddPermit2Data struct containing data for swap |
+| Name      | Type                                                                 | Description                                           |
+| --------- | -------------------------------------------------------------------- | ----------------------------------------------------- |
+| `params_` | [`SwapAndAddPermit2Data`](./structs/struct.SwapAndAddPermit2Data.md) | SwapAndAddPermit2Data struct containing data for swap |
 
 **Returns**
 
@@ -297,9 +297,9 @@ function removeLiquidityPermit2(
 
 **Parameters**
 
-| Name      | Type                         | Description                                                       |
-| --------- | ---------------------------- | ----------------------------------------------------------------- |
-| `params_` | `RemoveLiquidityPermit2Data` | RemoveLiquidityPermit2Data struct containing data for withdrawals |
+| Name      | Type                                                                           | Description                                                       |
+| --------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| `params_` | [`RemoveLiquidityPermit2Data`](./structs/struct.RemoveLiquidityPermit2Data.md) | RemoveLiquidityPermit2Data struct containing data for withdrawals |
 
 **Returns**
 
@@ -326,9 +326,9 @@ function wrapAndAddLiquidity(
 
 **Parameters**
 
-| Name      | Type               | Description                                                  |
-| --------- | ------------------ | ------------------------------------------------------------ |
-| `params_` | `AddLiquidityData` | AddLiquidityData struct containing data for adding liquidity |
+| Name      | Type                                                       | Description                                                  |
+| --------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| `params_` | [`AddLiquidityData`](./structs/struct.AddLiquidityData.md) | AddLiquidityData struct containing data for adding liquidity |
 
 **Returns**
 
@@ -362,9 +362,9 @@ function wrapAndSwapAndAddLiquidity(
 
 **Parameters**
 
-| Name      | Type             | Description                                    |
-| --------- | ---------------- | ---------------------------------------------- |
-| `params_` | `SwapAndAddData` | SwapAndAddData struct containing data for swap |
+| Name      | Type                                                   | Description                                    |
+| --------- | ------------------------------------------------------ | ---------------------------------------------- |
+| `params_` | [`SwapAndAddData`](./structs/struct.SwapAndAddData.md) | SwapAndAddData struct containing data for swap |
 
 **Returns**
 
@@ -394,9 +394,9 @@ function wrapAndAddLiquidityPermit2(
 
 **Parameters**
 
-| Name      | Type                      | Description                                                         |
-| --------- | ------------------------- | ------------------------------------------------------------------- |
-| `params_` | `AddLiquidityPermit2Data` | AddLiquidityPermit2Data struct containing data for adding liquidity |
+| Name      | Type                                                                     | Description                                                         |
+| --------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| `params_` | [`AddLiquidityPermit2Data`](./structs/struct.AddLiquidityPermit2Data.md) | AddLiquidityPermit2Data struct containing data for adding liquidity |
 
 **Returns**
 
@@ -430,9 +430,9 @@ function wrapAndSwapAndAddLiquidityPermit2(
 
 **Parameters**
 
-| Name      | Type                    | Description                                           |
-| --------- | ----------------------- | ----------------------------------------------------- |
-| `params_` | `SwapAndAddPermit2Data` | SwapAndAddPermit2Data struct containing data for swap |
+| Name      | Type                                                                 | Description                                           |
+| --------- | -------------------------------------------------------------------- | ----------------------------------------------------- |
+| `params_` | [`SwapAndAddPermit2Data`](./structs/struct.SwapAndAddPermit2Data.md) | SwapAndAddPermit2Data struct containing data for swap |
 
 **Returns**
 
