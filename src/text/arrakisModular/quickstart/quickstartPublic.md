@@ -10,9 +10,9 @@ To make the deposit process safe and simple we created the [Arrakis Public Vault
 
 The following provides a step-by-step explanation of depositing liquidity into an Arrakis Public Vault via the Router V2.
 
-1. Identify the Meta Vault associated to the pair you want to participate in.
+1. Identify the Public Vault associated to the pair you want to participate in.
 
-2. Next step is use the Router to determine how many of each tokens you expect to need to join the Meta Vault.
+2. Next step is use the Router to determine how many of each tokens you expect to need to join the Public Vault.
 
    - Use [`getMintAmounts`](../../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouterV2.md#getmintamounts) to determine the extact amounts of `token0` and `token1` you expect to deposit, given the maximum of each token you'd like to provide.
 
