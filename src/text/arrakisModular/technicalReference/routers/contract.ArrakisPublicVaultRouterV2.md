@@ -485,6 +485,31 @@ function getMintAmounts(
 | `amount0ToDeposit` | `uint256` | amount of token0 user should deposit into the vault for minting 'shareToMint'. |
 | `amount1ToDeposit` | `uint256` | amount of token1 user should deposit into the vault for minting 'shareToMint'. |
 
+### getBurnAmounts
+
+getBurnAmounts used to get the amounts we can get from some shares burn.
+
+```solidity
+function getBurnAmounts(
+    address vault_,
+    uint256 shares_
+) external view returns (uint256 amount0, uint256 amount1);
+```
+
+**Parameters**
+
+| Name      | Type      | Description                         |
+| --------- | --------- | ----------------------------------- |
+| `vault_`  | `address` | meta vault address.                 |
+| `shares_` | `uint256` | amount of shares user want to burn. |
+
+**Returns**
+
+| Name      | Type      | Description                                            |
+| --------- | --------- | ------------------------------------------------------ |
+| `amount0` | `uint256` | amount of token0 user can get from burning 'shares\_'. |
+| `amount1` | `uint256` | amount of token1 user can get from burning 'shares\_'. |
+
 ### getModuleID
 
 ```solidity
@@ -636,4 +661,13 @@ function _getMintAmounts(
         uint256 amount0ToDeposit,
         uint256 amount1ToDeposit
     );
+```
+
+### \_getBurnAmounts
+
+```solidity
+function _getBurnAmounts(
+    address vault_,
+    uint256 shares_
+) internal view returns (uint256 amount0, uint256 amount1);
 ```
