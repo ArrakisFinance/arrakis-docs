@@ -14,7 +14,7 @@ The following provides a step-by-step explanation of depositing liquidity into a
 
 2. Next step is use the Router to determine how many of each tokens you expect to need to join the Public Vault.
 
-   - Use [`getMintAmounts`](../../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouterV2.md#getmintamounts) to determine the extact amounts of `token0` and `token1` you expect to deposit, given the maximum of each token you'd like to provide.
+   - Use [`getMintAmounts`](../../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouterV2.md#getmintamounts) to determine the exact amounts of `token0` and `token1` you expect to deposit, given the maximum of each token you would like to provide.
 
 3. In order to set token transfer authorizations before depositing, there are two alternatives:
 
@@ -41,6 +41,8 @@ Removing Liquidity from an Arrakis Public Vault that you hold LP tokens of is ea
 1. Ensure you have LP `shares` of the Public Vault you want to withdraw from.
 
 2. Determine how many shares you want to burn to withdraw liquidity. You can burn a partial amount or your entire balance.
+
+   - Use [`getBurnAmounts`](../../arrakisModular/technicalReference/routers/contract.ArrakisPublicVaultRouterV2.md#getburnamounts) to determine the amounts of `token0` and `token1` you expect to withdraw, given the amount of `shares` you would like to burn.
 
 3. In order to set token transfer authorizations for your LP tokens, there are two alternatives:
 
