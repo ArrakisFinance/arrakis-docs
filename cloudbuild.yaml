@@ -10,9 +10,9 @@ steps:
     entrypoint: bash
   # Step 2: Copy file to cloud storage
   - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['-m', 'cp', '-r', 'book/*', 'gs://arrakis-docs']
+    args: ['-m', 'cp', '-r', 'book/*', 'gs://arrakis-docs-prod']
     id: CopyToStorage
 
 options:
   logging: CLOUD_LOGGING_ONLY
-  workerPool: projects/$PROJECT_ID/locations/$_REGION/workerPools/private-pool
+  workerPool: projects/$PROJECT_ID/locations/europe-west1/workerPools/arrakis-cicd-private-pool-prod
