@@ -4,4 +4,4 @@ While some underlying library code is different the feature set of the PancakeSw
 
 ## Deployments
 
-Networks: Ethereum Mainnet, BSC (soon)
+Networks: BNB Chain
